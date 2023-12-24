@@ -1,0 +1,114 @@
+﻿@model IEnumerable<User>
+@{
+    ViewData["Title"] = "Customers";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped" id="Customers">
+        <thead class="thead-dark">
+            <tr>
+                <th>Customer Id</th>
+                <th>Customer Name</th>
+                <th>Customer City</th>
+                <th>Customer Phone Number</th>
+                <th>Customer Gender</th>
+                <th>Customer Age</th>
+                <th>Customer profile photo</th>
+                <th>Customer Email</th>
+                <th>Customer Reveiws</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                var email = item.Logininfos.FirstOrDefault(u => u.Userid == item.Userid).Email ; 
+                <tr>
+                    <td>@item.Userid</td>
+                    <td>@item.Fname @item.Lname</td>
+                    <td>@item.Usercity</td>
+                    <td>@item.Phonenumber</td>
+                    <td>@item.Gender</td>
+                    <td>
+                        @OnlineStore.Models.User.CalculateAge(item.Birthdate.Value)
+                    </td>
+                    <td>
+                        <img src="@Url.Content("~/images/" + item.Imagepath)" asp-append-version="true" style="border-radius: 50%;" width="100px" height="100px" />
+                    </td>
+                    <td>@email</td>
+                    <td>
+                        <!-- Show Reviews Button -->
+                        <button type="button" class="btn show-reviews" data-user-id="@item.Userid" >Show Reviews</button>
+
+                        <!-- Hidden container for user reviews -->
+                        <div class="user-reviews" id="reviews-user-@item.Userid" style="display: none;">
+                            @foreach (var review in item.Userreviews)
+                            {
+                                <div class="card my-2">
+                                    <div class="card-header">
+                                        Review for @review.Product?.Name
+                                    </div>
+                                    <div class="card-body">
+                                        <blockquote class="blockquote mb-0">
+                                            <p>@review.Comments</p>
+                                            <footer class="blockquote-footer">
+                                                On <cite title="Source Title">@review.Reviewdate.Value.ToString("yyyy-MM-dd")</cite>
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal Structure for User Reviews -->
+<div class="modal fade" id="reviewsModal" tabindex="-1" role="dialog" aria-labelledby="reviewsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="reviewsModalLabel">User Reviews</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- User reviews will be loaded here -->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.show-reviews').click(function () {
+            var userId = $(this).data('user-id');
+            // Fetch the reviews from the hidden div and set it inside the modal's body
+            var reviewsHtml = $('#reviews-user-' + userId).html();
+            $('#reviewsModal .modal-body').html(reviewsHtml);
+
+            // Show the modal
+            $('#reviewsModal').modal('show');
+        });
+    });
+
+</script>
+
+
+
+

@@ -1,0 +1,209 @@
+﻿@model IEnumerable<Testimonial>
+@{
+    ViewData["Title"] = "Reviews";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<style>
+:root {
+  --background: linear-gradient(30deg, #f39c12 30%, #f1c40f);
+  --background-select: linear-gradient(to left, #34495e 3rem, #2c3e50 3rem);
+}
+
+
+/* Reset <select> defaults */
+select {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: inherit;
+  box-shadow: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+/* Custom Select wrapper */
+.select {
+  position: relative;
+  display: flex;
+  width: min(20rem, 90vw);
+  background: var(--background-select);
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+  select {
+    flex: 1;
+    padding: 1em;
+    cursor: pointer;
+  }
+
+  &::after {
+    content: "\25BC";
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    transition: 0.25s all ease;
+    pointer-events: none; /* IMPORTANT to click on arrow */
+  }
+
+  &:hover::after {
+    color: #f39c12;
+    animation: bounce 0.5s infinite;
+  }
+
+</style>
+<div class="sorting-container">
+    <label class="select">
+        <select id="sortOrder" class="form-control">
+            <option value="Oldest" selected>Oldest First</option>
+            <option value="Newest">Newest First</option>
+        </select>
+    </label>
+</div>
+
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped" id="Customers">
+        <thead class="thead-dark">
+            <tr>
+                <th>Customer Name</th>
+                <th>Customer Email</th>
+                <th>Feedback</th>
+                <th>Submission Date</th>
+                <th>Approval Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TruncatedFeedback)
+                        @if (item.Feedback.Length > 100)
+                        {
+                            <a href="#" data-toggle="modal" data-target="#descriptionModal-@item.Testimonialid">Read More</a>
+                        }
+                    </td>
+                    <td>@item.Submissiondate</td>
+                    <td>
+                        <select class="form-control reveiw-status" data-test-id="@item.Testimonialid">
+                            @if (item.Approvalstatus == "Pending")
+                            {
+                                <option value="Pending" selected>Pending</option>
+                            }
+                            else
+                            {
+                                <option value="Pending">Pending</option>
+                            }
+
+                            @if (item.Approvalstatus == "Approved")
+                            {
+                                <option value="Approved" selected>Approved</option>
+                            }
+                            else
+                            {
+                                <option value="Approved">Approved</option>
+                            }
+
+                            @if (item.Approvalstatus == "Rejected")
+                            {
+                                <option value="Rejected" selected>Rejected</option>
+                            }
+                            else
+                            {
+                                <option value="Rejected">Rejected</option>
+                            }
+                        </select>
+                    </td>
+
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>
+
+
+@foreach (var item in Model)
+{
+    <div class="modal fade" id="descriptionModal-@item.Testimonialid" tabindex="-1" role="dialog" aria-labelledby="descriptionModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="descriptionModalLabel">@item.Name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    @item.Feedback
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script>
+    $(document).ready(function () {
+        $('.reveiw-status').change(function () {
+            var newStatus = $(this).val();
+            var testId = $(this).data('test-id');
+            var updateUrl = '@Url.Action("UpdateReveiwStatus", "Admin")';
+            console.log('Making AJAX call to:', updateUrl); // Check the generated URL
+
+            $.ajax({
+                url: updateUrl,
+                type: 'POST',
+                data: {
+                    testId: testId,
+                    newStatus: newStatus
+                },
+                success: function (result) {
+                    console.log("Updated")
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1000); // Delay of 1000 milliseconds (1 second)
+                },
+                error: function (xhr, status, error) {
+                    console.log("error")
+                }
+            });
+        });
+        sortTestimonials('Oldest');
+
+        $('#sortOrder').change(function () {
+            var sortOrder = $(this).val();
+            sortTestimonials(sortOrder);
+        });
+
+        function sortTestimonials(order) {
+            var rows = $('#Customers tbody tr').get();
+
+            rows.sort(function (a, b) {
+                var keyA = $(a).find("td:eq(3)").text(); // Index of 'Submission Date' column
+                var keyB = $(b).find("td:eq(3)").text();
+
+                if (order === 'Newest') {
+                    return new Date(keyB) - new Date(keyA);
+                } else {
+                    return new Date(keyA) - new Date(keyB);
+                }
+            });
+
+            $.each(rows, function (index, row) {
+                $('#Customers tbody').append(row);
+            });
+        }
+    });
+
+
+
+</script>

@@ -1,0 +1,2473 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OnlineStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OnlineStore.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\avatars\\2.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\avatars\\2.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\avatars\\3.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\avatars\\3.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\avatars\\4.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\avatars\\4.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\aws.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\aws.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\misc\\aviato.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\misc\\aviato.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\misc\\bitbank.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\misc\\bitbank.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\misc\\triangle-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\misc\\triangle-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\misc\\zipcar.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\misc\\zipcar.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\payments\\american-bank.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\payments\\american-bank.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\payments\\citi.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\payments\\citi.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\payments\\digital-ocean.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\payments\\digital-ocean.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\payments\\gumroad.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\payments\\gumroad.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\payments\\mastercard-2.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\payments\\mastercard-2.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\payments\\stripes.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\payments\\stripes.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\404.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\404.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\auth-basic-mask-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\auth-basic-mask-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\misc-mask-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\misc-mask-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\misc-under-maintenance.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\misc-under-maintenance.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\tree-3.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\tree-3.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\tree.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\tree.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\illustrations\\trophy.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\illustrations\\trophy.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\fonts\\materialdesignicons\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\node-waves\\node-waves.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\node-waves\\node-waves.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\node-waves\\node-waves.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\node-waves\\node-waves.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\css\\core.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\css\\core.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\fonts\\materialdesignicons.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\fonts\\materialdesignicons.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\fonts\\materialdesignicons\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\fonts\\materialdesignicons\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\fonts\\materialdesignicons\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\fonts\\materialdesignicons\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\fonts\\materialdesignicons\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\fonts\\materialdesignicons\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\fonts\\materialdesignicons\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\fonts\\materialdesignicons\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\js\\menu.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\node-waves\\node-waves.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\node-waves\\node-waves.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\node-waves\\node-waves.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\node-waves\\node-waves.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\dist\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\dist\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\fonts\\materialdesignicons.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\fonts\\materialdesignicons.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\js\\menu.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\apex-charts\\apex-charts.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\apex-charts\\apex-charts.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\highlight\\highlight-github.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\highlight\\highlight-github.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\highlight\\highlight.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\highlight\\highlight.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\node-waves\\node-waves.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\node-waves\\node-waves.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\node-waves\\node-waves.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\node-waves\\node-waves.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\perfect-scrollbar\\perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\perfect-scrollbar\\perfect-scrollbar.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_accordion.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_alert.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_alert.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_badge.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_badge.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_button-group.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_buttons.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_card.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_card.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_carousel.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_close.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_close.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_forms.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_forms.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_functions.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_functions.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_include.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_include.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_list-group.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_mixins.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_modal.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_modal.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_nav.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_nav.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_navbar.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_pagination.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_popover.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_popover.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_progress.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_progress.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_reboot.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_root.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_root.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_spinners.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_tables.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_tables.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_toasts.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_type.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_type.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_utilities-ltr.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_utilities-ltr.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_utilities.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\_variables.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\_variables.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_navs.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_navs.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_progress.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_progress.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_toasts.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap-extended\\mixins\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_bootstrap.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_colors.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_colors.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_app-brand.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_avatar.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_base.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_base.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_common.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_common.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_footer.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_footer.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_include.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_include.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_layout.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_layout.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_menu.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_menu.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_mixins.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_text-divider.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\_variables.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\_variables.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\mixins\\_app-brand.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\mixins\\_app-brand.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\mixins\\_avatar.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\mixins\\_avatar.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\mixins\\_footer.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\mixins\\_footer.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\mixins\\_menu.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\mixins\\_menu.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\mixins\\_navbar.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\mixins\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_components\\mixins\\_text-divider.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_components\\mixins\\_text-divider.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_custom-variables\\_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_custom-variables\\_bootstrap-extended.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_custom-variables\\_components.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_custom-variables\\_components.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_custom-variables\\_libs.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_custom-variables\\_libs.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_custom-variables\\_pages.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_custom-variables\\_pages.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_custom-variables\\_support.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_custom-variables\\_support.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_theme\\_common.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_theme\\_common.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\_theme\\_theme.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\_theme\\_theme.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\core.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\core.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\pages\\page-account-settings.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\pages\\page-account-settings.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\pages\\page-auth.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\pages\\page-auth.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\pages\\page-icons.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\pages\\page-icons.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\pages\\page-misc.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\pages\\page-misc.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\scss\\theme-default.scss",
+      "PackagePath": "staticwebassets\\DashboardAssets\\scss\\theme-default.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\tasks\\build.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\tasks\\build.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\DashboardAssets\\tasks\\prod.js",
+      "PackagePath": "staticwebassets\\DashboardAssets\\tasks\\prod.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\3DPrinterProX3.jfif",
+      "PackagePath": "staticwebassets\\ProductImages\\3DPrinterProX3.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\Access.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\Access.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\CanonCamera.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\CanonCamera.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\DELLXPS13Plus.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\DELLXPS13Plus.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\DSLRCAMERA.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\DSLRCAMERA.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\EAccess.png",
+      "PackagePath": "staticwebassets\\ProductImages\\EAccess.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\Laptop.png",
+      "PackagePath": "staticwebassets\\ProductImages\\Laptop.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\LinedSweatshirt.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\LinedSweatshirt.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\LinedSweatshirtBlack.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\LinedSweatshirtBlack.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\LinedSweatshirtGreen.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\LinedSweatshirtGreen.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\LinedSweatshirtPurble.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\LinedSweatshirtPurble.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\PoweBank.jfif",
+      "PackagePath": "staticwebassets\\ProductImages\\PoweBank.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\Printer.jfif",
+      "PackagePath": "staticwebassets\\ProductImages\\Printer.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\RobotVacuumCleanerV1.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\RobotVacuumCleanerV1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\Tshirt.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\Tshirt.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\a.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\a.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\b.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\b.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\bbb.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\bbb.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\bj.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\bj.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\bottom.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\bottom.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\camera.jfif",
+      "PackagePath": "staticwebassets\\ProductImages\\camera.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\e.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\e.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\e2.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\e2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\ha.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\ha.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\home.jfif",
+      "PackagePath": "staticwebassets\\ProductImages\\home.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\jacket.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\jacket.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\mk.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\mk.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\ndress.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\ndress.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\ne.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\ne.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\outware.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\outware.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p11.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p11.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p12.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p12.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p13.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p13.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p14.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p14.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p21.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p21.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p22.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p22.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p31.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p31.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p32.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p32.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p41.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p41.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p51.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p51.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p61.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p61.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p62.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p62.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p63.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p63.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p71.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p71.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p72.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p72.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\p8.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\p8.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ProductImages\\r.jpg",
+      "PackagePath": "staticwebassets\\ProductImages\\r.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\audio\\1.mp3",
+      "PackagePath": "staticwebassets\\audio\\1.mp3"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\TrackOrder.css",
+      "PackagePath": "staticwebassets\\css\\TrackOrder.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color10.css",
+      "PackagePath": "staticwebassets\\css\\app.color10.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color2.css",
+      "PackagePath": "staticwebassets\\css\\app.color2.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color3.css",
+      "PackagePath": "staticwebassets\\css\\app.color3.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color4.css",
+      "PackagePath": "staticwebassets\\css\\app.color4.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color5.css",
+      "PackagePath": "staticwebassets\\css\\app.color5.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color6.css",
+      "PackagePath": "staticwebassets\\css\\app.color6.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color7.css",
+      "PackagePath": "staticwebassets\\css\\app.color7.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color8.css",
+      "PackagePath": "staticwebassets\\css\\app.color8.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.color9.css",
+      "PackagePath": "staticwebassets\\css\\app.color9.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\utility.css",
+      "PackagePath": "staticwebassets\\css\\utility.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\css\\vendor.css",
+      "PackagePath": "staticwebassets\\css\\vendor.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\1c0a8258-09fb-48cb-9e25-f130671573c6_admin.jfif",
+      "PackagePath": "staticwebassets\\images\\1c0a8258-09fb-48cb-9e25-f130671573c6_admin.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\1d335bee-3478-46e7-8d71-04b3f72aef60_slide-4.jpg",
+      "PackagePath": "staticwebassets\\images\\1d335bee-3478-46e7-8d71-04b3f72aef60_slide-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\2672bb90-633e-4011-9b12-ba396b4a1179_admin.jfif",
+      "PackagePath": "staticwebassets\\images\\2672bb90-633e-4011-9b12-ba396b4a1179_admin.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\5e4229ab-74fc-4c5b-8f5c-1217461ac955_Capa Trabalho On-line.jfif",
+      "PackagePath": "staticwebassets\\images\\5e4229ab-74fc-4c5b-8f5c-1217461ac955_Capa Trabalho On-line.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\88fde46b-f7b8-4c7b-a023-7d1b63ab56da_a.jpg",
+      "PackagePath": "staticwebassets\\images\\88fde46b-f7b8-4c7b-a023-7d1b63ab56da_a.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\8a956f84-7862-4847-a712-0d424ad74f4b_admin.jfif",
+      "PackagePath": "staticwebassets\\images\\8a956f84-7862-4847-a712-0d424ad74f4b_admin.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\940853e2-54d3-4c7d-a490-f6cf788a99f4_bbb.jpg",
+      "PackagePath": "staticwebassets\\images\\940853e2-54d3-4c7d-a490-f6cf788a99f4_bbb.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\9989b7f0-429b-4472-b4a5-38b0ee6f957a_b3486020000cae0b7add93634305df48.jpg",
+      "PackagePath": "staticwebassets\\images\\9989b7f0-429b-4472-b4a5-38b0ee6f957a_b3486020000cae0b7add93634305df48.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\a.jpg",
+      "PackagePath": "staticwebassets\\images\\a.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\a090df2c-b9fb-451a-b518-330af4b6a5a1_slide-2.49704adbc6bf2cea0a6608f78433b741.jpg",
+      "PackagePath": "staticwebassets\\images\\a090df2c-b9fb-451a-b518-330af4b6a5a1_slide-2.49704adbc6bf2cea0a6608f78433b741.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\about\\member-1.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\member-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\about\\member-2.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\member-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\about\\member-3.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\member-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\about\\member-4.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\member-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\about\\test-1.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\test-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\about\\test-2.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\test-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\about\\test-3.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\test-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\about\\test-4.jpg",
+      "PackagePath": "staticwebassets\\images\\about\\test-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-bg.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-0.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-0.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-1.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-2.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-3.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-4.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-5.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-6.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-6.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-7.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-7.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-8.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-8.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\banner-mega-9.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mega-9.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\i3-banner-1.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\i3-banner-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\banners\\i3-banner-2.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\i3-banner-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\bbb.jpg",
+      "PackagePath": "staticwebassets\\images\\bbb.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\avatar-5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\avatar-5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\avatar.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\avatar.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-10.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-10.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-11.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-11.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-12.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-12.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-6.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-7.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-7.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-8.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-8.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\blog\\post-9.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\post-9.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\brand\\b1.png",
+      "PackagePath": "staticwebassets\\images\\brand\\b1.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\brand\\b2.png",
+      "PackagePath": "staticwebassets\\images\\brand\\b2.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\brand\\b3.png",
+      "PackagePath": "staticwebassets\\images\\brand\\b3.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\brand\\b4.png",
+      "PackagePath": "staticwebassets\\images\\brand\\b4.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\brand\\b5.png",
+      "PackagePath": "staticwebassets\\images\\brand\\b5.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\brand\\b6.png",
+      "PackagePath": "staticwebassets\\images\\brand\\b6.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\c4cc1898-4234-42e9-979f-cc957ac78e87_photo_2023-09-11_20-28-46.jpg",
+      "PackagePath": "staticwebassets\\images\\c4cc1898-4234-42e9-979f-cc957ac78e87_photo_2023-09-11_20-28-46.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\collection\\coll-1.jpg",
+      "PackagePath": "staticwebassets\\images\\collection\\coll-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\collection\\coll-2.jpg",
+      "PackagePath": "staticwebassets\\images\\collection\\coll-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\collection\\coll-3.jpg",
+      "PackagePath": "staticwebassets\\images\\collection\\coll-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\collection\\coll-4.jpg",
+      "PackagePath": "staticwebassets\\images\\collection\\coll-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\collection\\coll1.jpg",
+      "PackagePath": "staticwebassets\\images\\collection\\coll1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\collection\\coll2.jpg",
+      "PackagePath": "staticwebassets\\images\\collection\\coll2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\ddd59846-6286-4e6f-8002-fc79e26f2576_photo.png",
+      "PackagePath": "staticwebassets\\images\\ddd59846-6286-4e6f-8002-fc79e26f2576_photo.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\e6f74c45-21d1-487a-882b-aada142c3009_b3486020000cae0b7add93634305df48.jpg",
+      "PackagePath": "staticwebassets\\images\\e6f74c45-21d1-487a-882b-aada142c3009_b3486020000cae0b7add93634305df48.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\images\\loading.gif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\logo\\Logo.PNG",
+      "PackagePath": "staticwebassets\\images\\logo\\Logo.PNG"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\logo\\Simple Man Fashion Clothing Logo-fotor-bg-remover-2023110712151.png",
+      "PackagePath": "staticwebassets\\images\\logo\\Simple Man Fashion Clothing Logo-fotor-bg-remover-2023110712151.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\logo\\Simple Man Fashion Clothing Logo.png",
+      "PackagePath": "staticwebassets\\images\\logo\\Simple Man Fashion Clothing Logo.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\logo\\logo-1.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-1.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\logo\\logo-2.png",
+      "PackagePath": "staticwebassets\\images\\logo\\logo-2.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\newsletter\\newsletter.jpg",
+      "PackagePath": "staticwebassets\\images\\newsletter\\newsletter.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\preloader.png",
+      "PackagePath": "staticwebassets\\images\\preloader.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product10.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product10.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product11.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product11.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product12.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product12.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product13.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product13.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product14.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product14.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product15.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product15.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product16.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product16.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product17.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product17.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product18.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product18.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product19.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product19.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product20.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product20.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product21.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product21.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product22.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product22.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product23.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product23.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product24.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product24.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product25.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product25.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product26.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product26.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product27.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product27.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product28.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product28.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product29.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product29.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product30.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product30.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product31.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product31.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product32.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product32.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product33.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product33.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product34.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product34.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product35.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product35.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product6.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product7.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product8.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product8.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\electronic\\product9.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\electronic\\product9.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product10.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product10.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product11.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product11.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product12.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product12.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product13.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product13.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product14.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product14.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product6.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product7.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product8.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product8.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\men\\product9.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\men\\product9.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\product-d-1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-d-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\product-d-2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-d-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\product-d-3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-d-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\product-d-4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-d-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\product-d-5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\product-d-5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product1.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product10.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product10.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product11.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product11.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product12.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product12.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product13.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product13.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product14.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product14.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product15.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product15.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product16.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product16.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product17.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product17.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product18.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product18.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product19.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product19.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product2.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product20.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product20.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product3.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product4.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product5.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product6.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product6.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product7.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product7.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product8.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product8.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\product\\women\\product9.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\women\\product9.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\promo\\promo-img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\promo\\promo-img-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\promo\\promo-img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\promo\\promo-img-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\promo\\promo-img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\promo\\promo-img-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\promo\\promo-img-4.jpg",
+      "PackagePath": "staticwebassets\\images\\promo\\promo-img-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\promo\\promo-img-5.jpg",
+      "PackagePath": "staticwebassets\\images\\promo\\promo-img-5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\promo\\promo-img-6.jpg",
+      "PackagePath": "staticwebassets\\images\\promo\\promo-img-6.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\Beige Elegant Jewelry Instagram Post.png",
+      "PackagePath": "staticwebassets\\images\\slider\\Beige Elegant Jewelry Instagram Post.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slide-1.jfif",
+      "PackagePath": "staticwebassets\\images\\slider\\slide-1.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slide-2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slide-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slide-3.jfif",
+      "PackagePath": "staticwebassets\\images\\slider\\slide-3.jfif"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slide-4.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slide-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slide-6.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slide-6.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slide-7.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slide-7.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slide-8.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slide-8.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slide-9.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slide-9.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\images\\slider\\slider-5.jpg",
+      "PackagePath": "staticwebassets\\images\\slider\\slider-5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\js\\app.js",
+      "PackagePath": "staticwebassets\\js\\app.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\js\\jquery.shopnav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.shopnav.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\js\\map-init.js",
+      "PackagePath": "staticwebassets\\js\\map-init.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\js\\vendor.js",
+      "PackagePath": "staticwebassets\\js\\vendor.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\01_preview.png",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\01_preview.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\1.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\10.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\10.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\11.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\11.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\2.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\3.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\4.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\5.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\5.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\6.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\6.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\7.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\7.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\8.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\8.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\components\\9.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\components\\9.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\img-1.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\img-2.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\img-3.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\ludus\\doc-img\\img-4.jpg",
+      "PackagePath": "staticwebassets\\ludus\\doc-img\\img-4.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\abstracts\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\abstracts\\_functions.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\abstracts\\_header-comment.scss",
+      "PackagePath": "staticwebassets\\scss\\abstracts\\_header-comment.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\abstracts\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\abstracts\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\abstracts\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\abstracts\\_variables.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\abstracts\\mixins-module\\_mixin-utilities-spacing.scss",
+      "PackagePath": "staticwebassets\\scss\\abstracts\\mixins-module\\_mixin-utilities-spacing.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color10.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color10.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color2.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color2.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color3.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color3.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color4.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color4.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color5.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color5.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color6.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color6.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color7.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color7.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color8.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color8.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.color9.scss",
+      "PackagePath": "staticwebassets\\scss\\app.color9.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\app.scss",
+      "PackagePath": "staticwebassets\\scss\\app.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\base\\_base.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_base.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\base\\_pre-config.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_pre-config.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_typography.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\base\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\base\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\_all.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_all.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\breadcrumb\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\breadcrumb\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\button\\_button.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\button\\_button.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\checkbox-radio\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\checkbox-radio\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\countdown\\_countdown.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\countdown\\_countdown.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\input-counter\\_input-counter.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\input-counter\\_input-counter.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\input-text\\_input-text.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\input-text\\_input-text.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\modal\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\modal\\_modal.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\preload-img-aspect-ratio\\_preload-img-aspect-ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\preload-img-aspect-ratio\\_preload-img-aspect-ratio.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\product\\_product.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\product\\_product.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\select-box\\_select-box.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\select-box\\_select-box.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\components\\textarea\\_textarea.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\textarea\\_textarea.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_footer.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_header.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_about.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_about.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_all.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_all.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_blog.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_blog.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_cart-wishlist.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_cart-wishlist.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_checkout.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_checkout.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_contact.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_contact.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_dashboard.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_dashboard.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_empty-404.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_empty-404.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_faq.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_faq.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_index.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_index.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_product-detail.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_product-detail.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_shop.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_shop.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\pages\\_sign-in-up-lost.scss",
+      "PackagePath": "staticwebassets\\scss\\pages\\_sign-in-up-lost.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\utility.scss",
+      "PackagePath": "staticwebassets\\scss\\utility.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\vendors-extensions\\_all.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors-extensions\\_all.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\vendors-extensions\\_bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors-extensions\\_bootstrap.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\vendors-extensions\\_jquery.scrollup.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors-extensions\\_jquery.scrollup.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\vendors-extensions\\_owl-carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors-extensions\\_owl-carousel.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\vendors-extensions\\_slick.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors-extensions\\_slick.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\vendors-extensions\\jquery.shopNav\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors-extensions\\jquery.shopNav\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\vendors-extensions\\jquery.shopNav\\extensions\\_mega.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors-extensions\\jquery.shopNav\\extensions\\_mega.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\scss\\vendors-extensions\\jquery.shopNav\\extensions\\_mini-cart.scss",
+      "PackagePath": "staticwebassets\\scss\\vendors-extensions\\jquery.shopNav\\extensions\\_mini-cart.scss"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\video\\video-pause.png",
+      "PackagePath": "staticwebassets\\video\\video-pause.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\video\\video-play.png",
+      "PackagePath": "staticwebassets\\video\\video-play.png"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\video\\video-sample.mp4",
+      "PackagePath": "staticwebassets\\video\\video-sample.mp4"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\video\\video-thumbnail.jpg",
+      "PackagePath": "staticwebassets\\video\\video-thumbnail.jpg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\lg.eot",
+      "PackagePath": "staticwebassets\\webfonts\\lg.eot"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\lg.svg",
+      "PackagePath": "staticwebassets\\webfonts\\lg.svg"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\lg.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\lg.ttf"
+    },
+    {
+      "Id": "D:\\تحالف\\MVC\\First Project\\OnlineStore\\OnlineStore\\wwwroot\\webfonts\\lg.woff",
+      "PackagePath": "staticwebassets\\webfonts\\lg.woff"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.OnlineStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.OnlineStore.props",
+      "PackagePath": "build\\OnlineStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.OnlineStore.props",
+      "PackagePath": "buildMultiTargeting\\OnlineStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.OnlineStore.props",
+      "PackagePath": "buildTransitive\\OnlineStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

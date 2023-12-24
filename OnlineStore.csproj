@@ -1,0 +1,90 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\app.js" />
+    <None Include="wwwroot\js\jquery.shopnav.js" />
+    <None Include="wwwroot\js\map-init.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\vendor.js" />
+    <None Include="wwwroot\scss\abstracts\mixins-module\_mixin-utilities-spacing.scss" />
+    <None Include="wwwroot\scss\abstracts\_functions.scss" />
+    <None Include="wwwroot\scss\abstracts\_header-comment.scss" />
+    <None Include="wwwroot\scss\abstracts\_mixins.scss" />
+    <None Include="wwwroot\scss\abstracts\_variables.scss" />
+    <None Include="wwwroot\scss\app.color10.scss" />
+    <None Include="wwwroot\scss\app.color2.scss" />
+    <None Include="wwwroot\scss\app.color3.scss" />
+    <None Include="wwwroot\scss\app.color4.scss" />
+    <None Include="wwwroot\scss\app.color5.scss" />
+    <None Include="wwwroot\scss\app.color6.scss" />
+    <None Include="wwwroot\scss\app.color7.scss" />
+    <None Include="wwwroot\scss\app.color8.scss" />
+    <None Include="wwwroot\scss\app.color9.scss" />
+    <None Include="wwwroot\scss\app.scss" />
+    <None Include="wwwroot\scss\base\_base.scss" />
+    <None Include="wwwroot\scss\base\_pre-config.scss" />
+    <None Include="wwwroot\scss\base\_typography.scss" />
+    <None Include="wwwroot\scss\base\_utilities.scss" />
+    <None Include="wwwroot\scss\components\breadcrumb\_breadcrumb.scss" />
+    <None Include="wwwroot\scss\components\button\_button.scss" />
+    <None Include="wwwroot\scss\components\checkbox-radio\_checkbox-radio.scss" />
+    <None Include="wwwroot\scss\components\countdown\_countdown.scss" />
+    <None Include="wwwroot\scss\components\input-counter\_input-counter.scss" />
+    <None Include="wwwroot\scss\components\input-text\_input-text.scss" />
+    <None Include="wwwroot\scss\components\modal\_modal.scss" />
+    <None Include="wwwroot\scss\components\preload-img-aspect-ratio\_preload-img-aspect-ratio.scss" />
+    <None Include="wwwroot\scss\components\product\_product.scss" />
+    <None Include="wwwroot\scss\components\select-box\_select-box.scss" />
+    <None Include="wwwroot\scss\components\textarea\_textarea.scss" />
+    <None Include="wwwroot\scss\components\_all.scss" />
+    <None Include="wwwroot\scss\layout\_footer.scss" />
+    <None Include="wwwroot\scss\layout\_header.scss" />
+    <None Include="wwwroot\scss\pages\_about.scss" />
+    <None Include="wwwroot\scss\pages\_all.scss" />
+    <None Include="wwwroot\scss\pages\_blog.scss" />
+    <None Include="wwwroot\scss\pages\_cart-wishlist.scss" />
+    <None Include="wwwroot\scss\pages\_checkout.scss" />
+    <None Include="wwwroot\scss\pages\_contact.scss" />
+    <None Include="wwwroot\scss\pages\_dashboard.scss" />
+    <None Include="wwwroot\scss\pages\_empty-404.scss" />
+    <None Include="wwwroot\scss\pages\_faq.scss" />
+    <None Include="wwwroot\scss\pages\_index.scss" />
+    <None Include="wwwroot\scss\pages\_product-detail.scss" />
+    <None Include="wwwroot\scss\pages\_shop.scss" />
+    <None Include="wwwroot\scss\pages\_sign-in-up-lost.scss" />
+    <None Include="wwwroot\scss\utility.scss" />
+    <None Include="wwwroot\scss\vendors-extensions\jquery.shopNav\extensions\_mega.scss" />
+    <None Include="wwwroot\scss\vendors-extensions\jquery.shopNav\extensions\_mini-cart.scss" />
+    <None Include="wwwroot\scss\vendors-extensions\jquery.shopNav\_dropdown.scss" />
+    <None Include="wwwroot\scss\vendors-extensions\_all.scss" />
+    <None Include="wwwroot\scss\vendors-extensions\_bootstrap.scss" />
+    <None Include="wwwroot\scss\vendors-extensions\_jquery.scrollup.scss" />
+    <None Include="wwwroot\scss\vendors-extensions\_owl-carousel.scss" />
+    <None Include="wwwroot\scss\vendors-extensions\_slick.scss" />
+    <None Include="wwwroot\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\webfonts\lg.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="ODP.NetCore" Version="2.0.12" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="7.21.9" />
+  </ItemGroup>
+
+</Project>

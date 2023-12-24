@@ -1,0 +1,156 @@
+﻿@model User ; 
+
+@{
+    ViewData["Title"] = "SignUp Page";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+
+<!--====== App Content ======-->
+<div class="app-content">
+
+    <!--====== Section 1 ======-->
+    <div class="u-s-p-y-60">
+
+        <!--====== Section Content ======-->
+        <div class="section__content">
+            <div class="container">
+                <div class="breadcrumb">
+                    <div class="breadcrumb__wrap">
+                        <ul class="breadcrumb__list">
+                            <li class="has-separator">
+
+                                <a asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="is-marked">
+
+                                <a asp-controller="SigninAndSignup" asp-action="SignUp">Signup</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== End - Section 1 ======-->
+    <!--====== Section 2 ======-->
+    <div class="u-s-p-b-60">
+
+        <!--====== Section Intro ======-->
+        <div class="section__intro u-s-m-b-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section__text-wrap">
+                            <h1 class="section__heading u-c-secondary">CREATE AN ACCOUNT</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Intro ======-->
+        <!--====== Section Content ======-->
+        <div class="section__content">
+            <div class="container">
+                <div class="row row--center">
+                    <div class="col-lg-6 col-md-8 u-s-m-b-30">
+                        <div class="l-f-o">
+                            <div class="l-f-o__pad-box">
+                                <h1 class="gl-h1">PERSONAL INFORMATION</h1>
+                                <form asp-action="SignUp" enctype="multipart/form-data" method="POST" class="l-f-o__form" id="register-form">
+
+                                    <div class="u-s-m-b-30">
+
+                                        <label class="gl-label" for="Fname">FIRST NAME *</label>
+
+                                        <input class="input-text input-text--primary-style" type="text" name="Fname" id="Fname" placeholder="First Name">
+                                    </div>
+                                    <div class="u-s-m-b-30">
+
+                                        <label class="gl-label" for="Lname">LAST NAME *</label>
+
+                                        <input class="input-text input-text--primary-style" type="text" name="Lname" id="Lname" placeholder="Last Name">
+                                    </div>
+                                        <div class="u-s-m-b-30">
+
+
+                                            <div class="u-s-m-b-30">
+                                                <label class="gl-label" for="Birthdate">BIRTHDAY *</label>
+                                                <input class="input-text input-text--primary-style" type="date" name="Birthdate" id="Birthdate">
+                                            </div>
+                                        </div>                                      
+
+                                    <div class="u-s-m-b-30">
+
+                                        <label class="gl-label" for="Gender">GENDER</label><select class="select-box select-box--primary-style u-w-100" name="Gender" id="Gender">
+                                            <option selected>Select</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="u-s-m-b-30">
+
+                                        <label class="gl-label" for="Usercity">City</label>
+                                        <select class="select-box select-box--primary-style u-w-100" name="Usercity" id="Usercity">
+                                            <option selected>Select</option>
+                                            <option value="Amman">Amman</option>
+                                            <option value="Irbid">Irbid</option>
+                                            <option value="Zarqa">Zarqa</option>
+                                            <option value="Aqaba">Aqaba</option>
+                                            <option value="Jerash">Jerash</option>
+                                            <option value="Ajloun">Ajloun</option>
+                                            <option value="Salt">Salt</option>
+                                            <option value="Aqaba">Aqaba</option>
+                                            <option value="Mafraq">Mafraq</option>
+                                            <option value="Ma'an">Ma'an</option>
+                                            <option value="Karak">Karak</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="u-s-m-b-30">
+
+                                        <label class="gl-label" for="Phonenumber">Phone Number</label>
+
+                                        <input class="input-text input-text--primary-style" type="text" name="Phonenumber" id="Phonenumber" placeholder="Enter Your Phone Number">
+                                    </div>
+
+                                    <div class="u-s-m-b-30">
+
+                                        <label class="gl-label" for="Email">E-MAIL *</label>
+
+                                        <input class="input-text input-text--primary-style" type="text" name="Email" id="Email" placeholder="Enter E-mail">
+                                    </div>
+                                    <div class="u-s-m-b-30">
+
+                                        <label class="gl-label" for="password">PASSWORD *</label>
+
+                                        <input class="input-text input-text--primary-style" type="password" name="password" id="password" placeholder="Enter Password">
+                                    </div>
+
+                                     <div class="u-s-m-b-30">
+
+                                        <label class="gl-label">Choose Profile Pic </label> 
+                                        <label asp-for="ImageFile"><i class="zmdi zmdi-image material-icons-name"></i></label>
+                                     <input asp-for="ImageFile" />
+                                    </div>
+
+
+                                    <div class="u-s-m-b-15">
+
+                                        <button class="btn btn--e-transparent-brand-b-2" type="submit" value="SignUp">CREATE</button>
+                                    </div>
+
+                                    <a class="gl-link" asp-controller="Home" asp-action="Index">Return to Store</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Content ======-->
+    </div>
+    <!--====== End - Section 2 ======-->
+</div>
+<!--====== End - App Content ======-->

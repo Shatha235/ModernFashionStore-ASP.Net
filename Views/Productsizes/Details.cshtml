@@ -1,0 +1,25 @@
+﻿@model OnlineStore.Models.Productsize
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Productsize</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sizename)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sizename)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Sizeid">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

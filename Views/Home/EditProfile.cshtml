@@ -1,0 +1,181 @@
+﻿@model Tuple<User , Logininfo>
+@{
+    ViewData["Title"] = "EditProfile";
+    Layout = @Model.Item2.Userroleid == 1 ? "~/Views/Shared/_DashboardLayout.cshtml" : "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<!--====== Vendor Css ======-->
+<link rel="stylesheet" href="~/css/vendor.css">
+
+<!--====== Utility-Spacing ======-->
+<link rel="stylesheet" href="~/css/utility.css">
+
+<!--====== App ======-->
+<link rel="stylesheet" href="~/css/app.css">
+
+<!--====== App Content ======-->
+<div class="app-content">
+
+    <!--====== Section 1 ======-->
+    <div class="u-s-p-y-60">
+
+        <!--====== Section Content ======-->
+        <div class="section__content">
+            <div class="container">
+                <div class="breadcrumb">
+                    <div class="breadcrumb__wrap">
+                        <ul class="breadcrumb__list">
+                            <li class="has-separator">
+
+                                <a asp-action="MyProfile" asp-controller="Home">Profile</a>
+                            </li>
+                            <li class="is-marked">
+
+                                <a asp-action="EditProfile" asp-controller="Home">Edit Profile</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== End - Section 1 ======-->
+    <!--====== Section 2 ======-->
+    <div class="u-s-p-b-60">
+
+        <!--====== Section Content ======-->
+        <div class="section__content">
+            <div class="dash">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-12">
+                            <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white">
+                                <div class="dash__pad-2">
+                                    <h1 class="dash__h1 u-s-m-b-14">Edit Profile</h1>
+
+                                    <span class="dash__text u-s-m-b-30">Looks like you haven't update your profile</span>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <form class="dash-edit-p" enctype="multipart/form-data" asp-action="EditUserProfile" asp-controller="Home" method="POST">
+                                                <div class="gl-inline">
+                                                    <div class="u-s-m-b-30">
+
+                                                        <label class="gl-label">FIRST NAME *</label>
+
+                                                        <input class="input-text input-text--primary-style" type="text" name="Fname" asp-for="@Model.Item1.Fname" placeholder="@Model.Item1.Fname">
+                                                    </div>
+                                                    <div class="u-s-m-b-30">
+
+                                                        <label class="gl-label">LAST NAME *</label>
+
+                                                        <input class="input-text input-text--primary-style" type="text" name="Lname" asp-for="@Model.Item1.Lname" placeholder="@Model.Item1.Lname">
+                                                    </div>
+                                                </div>
+                                                <div class="gl-inline">
+                                                    <div class="u-s-m-b-30">
+
+
+                                                        <div class="u-s-m-b-30">
+                                                            <label class="gl-label">BIRTHDAY *</label>
+                                                            <input class="input-text input-text--primary-style" type="date" name="Birthdate" asp-for="@Model.Item1.Birthdate">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="gl-inline">
+
+                                                <div class="u-s-m-b-30">
+
+                                                    <label class="gl-label">City</label>
+                                                    <select class="select-box select-box--primary-style u-w-100" name="Usercity" asp-for="@Model.Item1.Usercity">
+                                                        <option selected>Select</option>
+                                                        <option value="Amman">Amman</option>
+                                                        <option value="Irbid">Irbid</option>
+                                                        <option value="Zarqa">Zarqa</option>
+                                                        <option value="Aqaba">Aqaba</option>
+                                                        <option value="Jerash">Jerash</option>
+                                                        <option value="Ajloun">Ajloun</option>
+                                                        <option value="Salt">Salt</option>
+                                                        <option value="Aqaba">Aqaba</option>
+                                                        <option value="Mafraq">Mafraq</option>
+                                                        <option value="Ma'an">Ma'an</option>
+                                                        <option value="Karak">Karak</option>
+                                                    </select>
+                                                </div>
+                                                <div class="u-s-m-b-30">
+
+                                                    <label class="gl-label" for="Gender">GENDER</label>
+                                                    <select class="select-box select-box--primary-style u-w-100" name="Gender" asp-for="@Model.Item1.Gender">
+                                                        <option >Select</option>
+                                                        <option value="Male">Male</option>
+                                                        <option value="Female">Female</option>
+                                                    </select>
+                                                    </div>
+                                                    </div>
+                                                <div class="gl-inline">
+                                                    <div class="u-s-m-b-30">
+
+                                                        <label class="gl-label">E-MAIL *</label>
+
+                                                        <input class="input-text input-text--primary-style" type="text" name="Email" asp-for="@Model.Item2.Email" placeholder="@Model.Item2.Email">
+                                                    </div>
+
+                                                    <div class="u-s-m-b-30">
+
+                                                        <label class="gl-label">Phone Number</label>
+
+                                                        <input class="input-text input-text--primary-style" type="text" name="Phonenumber" asp-for="@Model.Item1.Phonenumber" placeholder="@Model.Item1.Phonenumber">
+                                                    </div>
+                                                </div>
+
+                                                <div class="u-s-m-b-30">
+
+                                                    <label class="gl-label">Choose Profile Pic </label>
+                                                    <label><i class="zmdi zmdi-image material-icons-name"></i></label>
+                                                    <input name="ImageFile" asp-for="@Model.Item1.ImageFile" />
+                                                </div>
+                                                <!-- Password change trigger -->
+                                                <div class="u-s-m-b-30">
+                                                    <span class="password-change-trigger" style="cursor:pointer;">Do you want to change your password?</span>
+
+                                                </div>
+
+                                                <!-- Hidden password fields -->
+                                                <div class="password-fields" style="display:none;">
+                                                    <div class="u-s-m-b-30">
+                                                        <label class="gl-label" >NEW PASSWORD *</label>
+                                                        <input class="input-text input-text--primary-style" type="password" name="NewPassword" asp-for="@Model.Item2.Password">
+                                                    </div>
+                                                    <div class="u-s-m-b-30">
+                                                        <label class="gl-label">CONFIRM NEW PASSWORD *</label>
+                                                        <input class="input-text input-text--primary-style" type="password" name="ConfirmNewPassword" asp-for="@Model.Item2.Password">
+                                                    </div>
+                                                </div>
+
+
+
+                                                <button class="btn btn--e-brand-b-2" type="submit">SAVE</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Content ======-->
+    </div>
+    <!--====== End - Section 2 ======-->
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.password-change-trigger').click(function () {
+                $('.password-fields').slideToggle();
+            });
+        });
+    </script>
+}

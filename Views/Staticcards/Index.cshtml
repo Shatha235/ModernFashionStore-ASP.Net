@@ -1,0 +1,54 @@
+﻿@model IEnumerable<OnlineStore.Models.Staticcard>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cardnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Expirydate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cvv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Balance)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cardnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Expirydate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cvv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Cardid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Cardid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Cardid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

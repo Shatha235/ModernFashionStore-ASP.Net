@@ -1,0 +1,329 @@
+﻿@model OnlineStore.Models.OrderViewModel
+
+@{
+    ViewData["Title"] = "TrackOrder";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+@{
+    // Define a variable to hold the order status and ensure it is not null
+    var orderStatus = Model?.Order?.Orderstatus ?? "unknown";
+}
+
+<link href="~/css/trackorder.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+
+    <div class="u-s-p-y-60">
+        <div class="section__content">
+            <div class="container">
+                <div class="breadcrumb">
+                    <div class="breadcrumb__wrap">
+                        <ul class="breadcrumb__list">
+                            <li class="has-separator">
+
+                                <a asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="is-marked">
+
+                                <a asp-controller="Home" asp-action="MyProfile">My Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====== Section 2 ======-->
+    <div class="u-s-p-b-60">
+        <div class="section__content">
+            <div class="dash">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12">
+
+                            <!--====== Dashboard Features ======-->
+                            <div class="dash__box dash__box--bg-white dash__box--shadow u-s-m-b-30">
+                                <div class="dash__pad-1">
+
+                                    <ul class="dash__f-list">
+
+                                        <li>
+
+                                            <a asp-controller="Home" asp-action="MyProfile">My Profile</a>
+                                        </li>
+
+                                        <li>
+
+
+                                            <a asp-controller="Home" asp-action="TrackOrder">Track Order</a>
+                                        </li>
+                                        <li>
+
+                                            <a asp-controller="Home" asp-action="MyOrders">My Orders</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-12">
+                            <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white">
+                                <div class="dash__pad-2">
+                                    <h1 class="dash__h1 u-s-m-b-14">Track your Order</h1>
+
+                                    <span class="dash__text u-s-m-b-30">To track your order please enter your Order ID in the box below and press the "Track" button. </span>
+                                    <form class="dash-track-order" action="@Url.Action("TrackOrder", "Home")" method="get">
+                                        <div class="gl-inline">
+                                            <div class="u-s-m-b-30">
+                                                <label class="gl-label" for="orderId">Order ID *</label>
+                                                <input class="input-text input-text--primary-style" type="text" name="orderId" id="orderId" placeholder="Found in your confirmation email">
+                                            </div>
+                                        </div>
+
+                                    <button class="btn btn--e-brand-b-2" id="close-modal">TRACK</button>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12">
+                        </div>
+
+                        @if (Model != null && Model.Order != null)
+                        {
+                        <div class="col-lg-9 col-md-12" style="margin-top: 40px">
+                            <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white">
+                                <div class="dash__pad-2">
+
+                                    <div class="row px-3">
+                                        <div class="col">
+                                            <ul id="progressbar">
+                                                <li class="step0 pending @(orderStatus.Equals("pending", StringComparison.OrdinalIgnoreCase) ? "active" : "")" id="stepPlaced">
+                                                    <span class="icon">✓</span>
+                                                    <span class="text">PLACED</span>
+                                                </li>
+                                                <li class="step0 shipped @(orderStatus.Equals("shipped", StringComparison.OrdinalIgnoreCase) ? "active" : "")" id="stepShipped">
+                                                    <span class="icon">✓</span>
+                                                    <span class="text">SHIPPED</span>
+                                                </li>
+                                                <li class="step0 delivered @(orderStatus.Equals("delivered", StringComparison.OrdinalIgnoreCase) ? "active" : "")" id="stepDelivered">
+                                                    <span class="icon">✓</span>
+                                                    <span class="text">DELIVERED</span>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                        <!--====== Feedback Section  ======-->
+                                        @if (Model.Order.Orderstatus == "delivered")
+                                        {
+                                            <div id="overlay"></div>
+
+                                        <div class="u-s-p-b-60">
+                                            <div class="section__content">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="contact-area u-h-100">
+                                                                <div class="contact-area__heading">
+                                                                    <h4>Your Order is Delivered , Give Us Your Feedback On Our System</h4>
+                                                                </div>
+                                                                    <form class="contact-f" method="post" action="@Url.Action("AddTestnoimal", "Home")" id="AddTestnoimalForm">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6 col-md-6 u-h-100">
+                                                                            <div class="u-s-m-b-30">
+
+                                                                                    <label for="c-message"></label><textarea class="text-area text-area--border-radius text-area--primary-style" id="c-message" placeholder="Compose a Feedback (Required)" name="feedback" required></textarea>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-12">
+
+                                                                            <button class="btn btn--e-brand-b-2" type="submit">Send Your Feedback</button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        
+                                        }
+
+                                        <div class="m-order__get">
+                                            <div class="manage-o__header u-s-m-b-30">
+                                                <div class="dash-l-r">
+                                                    <div>
+                                                        <div class="manage-o__text-2 u-c-secondary">Order @Model.Order.Orderid</div>
+                                                        <div class="manage-o__text u-c-silver">Placed on @Model.Order.Orderdate.ToString("dd MMM yyyy")</div>
+                                                        <!-- Assume you calculate originalTotalPrice somewhere in your model -->
+                                                        <div class="manage-o__text u-c-silver">Total Price Before Discount: @Model.Order.Totalprice.ToString("C")</div>
+                                                        @if (!string.IsNullOrEmpty(Model.CouponCode))
+                                                        {
+                                                            <div class="manage-o__text u-c-silver">Total Price After Discount: @(Model.Order.Totalprice * (1 - Model.CouponDiscount / 100))</div>
+                                                            <div class="manage-o__text u-c-silver">Coupon Code Used: @Model.CouponCode</div>
+                                                            <div class="manage-o__text u-c-silver">Coupon Code Percentage: @Model.CouponDiscount%</div>
+                                                        }
+                                                        else
+                                                        {
+                                                            <div class="manage-o__text u-c-silver">Coupon Code Used: none</div>
+                                                            <div class="manage-o__text u-c-silver">Coupon Code Percentage: none</div>
+                                                        }
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            @foreach (var detail in Model.OrderDetails)
+                                            {
+                                                <div class="manage-o__description u-s-m-b-30">
+                                                    <div class="description__container">
+                                                        <div class="table-p__img-wrap">
+                                                            <img class="u-img-fluid" src="@Url.Content("~/ProductImages/" + detail.Product.Imagepath)" alt="@detail.Product.Name" />
+                                                        </div>
+                                                        <div class="description-title">@detail.Product.Name</div>
+                                                    </div>
+                                                    <div class="description__info-wrap">
+                                                        <div>
+                                                            <span class="manage-o__text-2 u-c-silver">
+                                                                Quantity:
+                                                                <span class="manage-o__text-2 u-c-secondary">@detail.OrderDetail.Quantity</span>
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <span class="manage-o__text-2 u-c-silver">
+                                                                Product Price:
+                                                                <span class="manage-o__text-2 u-c-secondary">$@detail.Product.Price.ToString("N2")</span>
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            @if (detail.ColorName != null)
+                                                            {
+                                                                <span>
+                                                                    Color:
+                                                                    <div style="background-color: @detail.ColorName; width: 20px; height: 20px; border-radius:50%; display: inline-block;"></div>
+                                                                </span>
+                                                            }
+                                                        </div>
+                                                        <div>
+                                                            @if (detail.SizeName != null)
+                                                            {
+                                                                <span>Size: @detail.SizeName</span>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                    
+
+                                </div>
+                            </div>
+                        </div>
+                                    }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+    $("#AddTestnoimalForm").submit(function (e) {
+        e.preventDefault();
+
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("AddTestnoimal", "Home")",
+            data: $("#AddTestnoimalForm").serialize(),
+            success: function (response) {
+                if (response.success) {
+                    showCard(response.message); // Show success message
+                } else {
+                    showCard2(response.message); // Show error message
+                }
+            },
+            error: function () {
+                showCard2("An error occurred.");
+            }
+        });
+    });
+
+    function showCard(message) {
+        const cardHTML =
+            `
+            <div class="message-card">
+                <span class="check-icon">✔</span>
+                <p>${message}</p>
+                <button onclick="closeCard()">Close</button>
+            </div>
+            `;
+        document.body.insertAdjacentHTML('beforeend', cardHTML);
+    }
+
+    function showCard2(message) {
+        const cardHTML =
+            `
+            <div class="message-card">
+                <p>${message}</p>
+                <button onclick="closeCard()">Close</button>
+            </div>
+            `;
+        document.body.insertAdjacentHTML('beforeend', cardHTML);
+    }
+
+    function closeCard() {
+        const card = document.querySelector('.message-card');
+        if (card) {
+            card.remove();
+        }
+    }
+
+
+        // Assume you get this status from your backend
+    let orderStatus = "@orderStatus";
+    ; // This would dynamically come from your server
+
+        // Define your steps
+        const steps = {
+            placed: document.getElementById('stepPlaced'),
+            shipped: document.getElementById('stepShipped'),
+            delivered: document.getElementById('stepDelivered')
+        };
+
+        // Function to reset all steps to inactive
+        function resetSteps() {
+            for (let step in steps) {
+                steps[step].classList.remove('active');
+            }
+        }
+
+        // Function to update the progress bar
+        function updateProgressBar(status) {
+           //resetSteps(); // First reset all steps
+        switch (status.toLowerCase()) {
+            case 'pending':
+                steps.placed.classList.add('active', 'pending');
+                break;
+            case 'shipped':
+                steps.placed.classList.add('active', 'pending');
+                steps.shipped.classList.add('active', 'shipped');
+                break;
+            case 'delivered':
+                steps.placed.classList.add('active', 'pending');
+                steps.shipped.classList.add('active', 'shipped');
+                steps.delivered.classList.add('active', 'delivered');
+                break;
+                default:
+                    // Handle unknown status
+                    break;
+            }
+        }
+
+        // Call the function with the current status
+        updateProgressBar(orderStatus);
+
+    </script>

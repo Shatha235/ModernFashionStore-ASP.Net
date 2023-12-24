@@ -1,0 +1,501 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OnlineStore
+build_property.RootNamespace = OnlineStore
+build_property.ProjectDir = C:\Users\NITRO\Desktop\New folder (2)\OnlineStore\OnlineStore\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\NITRO\Desktop\New folder (2)\OnlineStore\OnlineStore
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Admin/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29udGFjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Admin/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Admin/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Admin/OrderList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cT3JkZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Admin/Reviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmV2aWV3cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categories/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categorytypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnl0eXBlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categorytypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnl0eXBlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categorytypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnl0eXBlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categorytypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnl0eXBlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Categorytypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnl0eXBlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Coupons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Coupons/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Coupons/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Coupons/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Coupons/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Delivercompanies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmNvbXBhbmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Delivercompanies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmNvbXBhbmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Delivercompanies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmNvbXBhbmllc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Delivercompanies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmNvbXBhbmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Delivercompanies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcmNvbXBhbmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/AboutUS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/AddTestnoimal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGRUZXN0bm9pbWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/CartList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXJ0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0UHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGQVEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/GetProductByCategoryType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRQcm9kdWN0QnlDYXRlZ29yeVR5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/GetProductByProductType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxHZXRQcm9kdWN0QnlQcm9kdWN0VHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeU9yZGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/MyProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeVByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/ProcessToCheckOutOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9jZXNzVG9DaGVja091dE9yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/TrackOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUcmFja09yZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Home/WishList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXaXNoTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Logininfoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5pbmZvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Logininfoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5pbmZvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Logininfoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5pbmZvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Logininfoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5pbmZvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Logininfoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5pbmZvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orderdetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJkZXRhaWxzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orderdetails/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJkZXRhaWxzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orderdetails/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJkZXRhaWxzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orderdetails/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJkZXRhaWxzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orderdetails/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJkZXRhaWxzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productattributes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGF0dHJpYnV0ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productattributes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGF0dHJpYnV0ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productattributes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGF0dHJpYnV0ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productattributes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGF0dHJpYnV0ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productattributes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGF0dHJpYnV0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productcolors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGNvbG9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productcolors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGNvbG9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productcolors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGNvbG9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productcolors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGNvbG9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productcolors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGNvbG9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productimages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGltYWdlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productimages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGltYWdlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productimages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGltYWdlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productimages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGltYWdlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productimages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdGltYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productsizes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNpemVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productsizes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNpemVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productsizes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNpemVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productsizes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNpemVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Productsizes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNpemVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Producttypes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHR5cGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Producttypes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHR5cGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Producttypes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHR5cGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Producttypes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHR5cGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Producttypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHR5cGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Roles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Roles/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shared/Components/MiniCart/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWluaUNhcnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shared/_DashboardLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9EYXNoYm9hcmRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shared/_HomeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ib21lTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shoppingcarts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdjYXJ0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shoppingcarts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdjYXJ0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shoppingcarts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdjYXJ0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shoppingcarts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdjYXJ0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shoppingcarts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdjYXJ0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/SigninAndSignup/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmluQW5kU2lnbnVwXFNpZ25Jbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/SigninAndSignup/SignUp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmluQW5kU2lnbnVwXFNpZ25VcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Staticcards/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGljY2FyZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Staticcards/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGljY2FyZHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Staticcards/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGljY2FyZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Staticcards/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGljY2FyZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Staticcards/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGljY2FyZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Userreviews/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJldmlld3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Userreviews/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJldmlld3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Userreviews/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJldmlld3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Userreviews/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJldmlld3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Userreviews/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnJldmlld3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/NITRO/Desktop/New folder (2)/OnlineStore/OnlineStore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ma8c18lieq

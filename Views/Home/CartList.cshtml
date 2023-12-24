@@ -1,0 +1,276 @@
+﻿@model IEnumerable<OnlineStore.Models.UserShoppingCartItem>
+
+@{
+    ViewData["Title"] = "CartList";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<link href="~/css/trackorder.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!--====== App Content ======-->
+<div class="app-content">
+
+    <!--====== Section 1 ======-->
+    <div class="u-s-p-y-60">
+        <div class="section__content">
+            <div class="container">
+                <div class="breadcrumb">
+                    <div class="breadcrumb__wrap">
+                        <ul class="breadcrumb__list">
+                            <li class="has-separator">
+
+                                <a asp-action="Index" asp-controller="Home">Home</a>
+                            </li>
+                            <li class="is-marked">
+
+                                <a asp-action="CartList" asp-controller="Home">Cart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== Section 2 ======-->
+    <div class="u-s-p-b-60">
+        <div class="section__intro u-s-m-b-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section__text-wrap">
+                            <h1 class="section__heading u-c-secondary">SHOPPING CART</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 u-s-m-b-30">
+                        <div class="table-responsive">
+                            <table class="table-p">
+                                <tbody>
+                                @foreach(var product in Model)
+                                {
+                                        <tr>
+
+                                            <td>
+                                                <div class="table-p__box">
+                                                    <div class="table-p__img-wrap">
+
+                                                        <img class="u-img-fluid" src=@Url.Content("~/ProductImages/" + product.Products.Imagepath) alt="">
+                                                    </div>
+                                                    <div class="table-p__info">
+
+                                                        <span class="table-p__name">
+
+                                                            <a asp-action="ProductDetails" asp-route-id="@product.Products.Productid">@product.Products.Name</a>
+                                                        </span>
+
+                                                        <span class="table-p__category">
+
+                                                            <a href="shop-side-version-2.html">@product.Categories.Name</a>
+                                                        </span>
+                                                        <ul class="table-p__variant-list">
+                                                            @if (product.Sizes != null)
+                                                            {
+                                                                <li>
+
+                                                                    <span>Size: @product.Sizes.Sizename</span>
+                                                                </li>
+                                                            }
+                                                            @if (product.Colors != null)
+                                                            {
+                                                                <li>
+                                                                    <span>
+                                                                        Color:
+                                                                        <div style="background-color: @product.Colors.Colorname; margin-right: 10px; width: 20px; height: 20px; border-radius:50%;"></div>
+                                                                    </span>
+                                                                </li>
+                                                            }
+
+                                                            <li>
+
+                                                                <span>Quantity: @product.CartItem.Quantity</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span class="success__quantity" style="cursor: pointer;">do you want to edit the Quantity?</span>
+
+                                                <div class="u-s-m-b-20 quantity-form" style="margin-top: 20px ; display: none;">
+                                                    <!--Add to cart form-->
+                                                    <form id="editQuantityForm" class="pd-detail__form" asp-action="EditQuantity" asp-controller="Home"  method="POST">
+                                                        <input type="hidden" name="productId" value="@product.Products.Productid" />
+
+                                                        <div class="pd-detail-inline-2">
+                                                            <div class="u-s-m-b-15">
+                                                                <!--====== Input Counter ======-->
+                                                                <div class="input-counter">
+
+                                                                    <span class="input-counter__minus fas fa-minus"></span>
+
+                                                                    <input class="input-counter__text input-counter--text-primary-style" name="newQuantity" type="text" value="1" data-min="1" data-max="1000">
+
+                                                                    <span class="input-counter__plus fas fa-plus"></span>
+                                                                </div>
+                                                                <button class="w-r__link btn--e-brand-b-2" type="submit">Save</button>
+
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </td>
+                                            <td>
+
+                                                <span class="table-p__price">$@product.Products.Price</span>
+                                            </td>
+                                            <td>
+                                                <div class="table-p__del-wrap">
+
+                                                    <a class="far fa-trash-alt table-p__delete-link" asp-action="RemoveFromCartlist" asp-controller="Home" asp-route-id="@product.CartItem.Shoppingcartid"></a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                }  
+                                
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="route-box">
+                            <div class="route-box__g1">
+
+                                <a class="route-box__link" asp-action="Index" asp-controller="Home">
+                                    <i class="fas fa-long-arrow-alt-left"></i>
+
+                                    <span>CONTINUE SHOPPING</span>
+                                </a>
+                            </div>
+                            <div class="route-box__g2">
+
+                                <a class="route-box__link" asp-action="DeleteCartlist" asp-controller="Home">
+                                    <i class="fas fa-trash"></i>
+
+                                    <span>CLEAR CART</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Content ======-->
+    </div>
+
+    <!--====== Section 3 ======-->
+    <div class="u-s-p-b-60">
+        <div class="section__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 u-s-m-b-30">
+                        <div class="row f-cart">
+                                <div class="col-lg-4 col-md-6 u-s-m-b-30">
+                                    <div class="f-cart__pad-box">
+
+                                        <div class="u-s-m-b-30">
+                                            <table class="f-cart__table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>SHIPPING</td>
+                                                        <td>$4.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>TAX</td>
+                                                        <td>$0.00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>SUBTOTAL</td>
+                                                        <td>$@UserShoppingCartItem.CalculateTotalPrice(Model)</td>
+                                                    </tr>
+                                                    <tr>
+
+                                                        <td>GRAND TOTAL</td>
+                                                        <td>$@UserShoppingCartItem.CalculateGrandPrice(Model)</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div>
+
+                                        <a asp-action="ProcessToCheckOutOrder" asp-controller="Home" class="btn btn--e-brand-b-2"> PROCEED TO CHECKOUT</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Content ======-->
+    </div>
+    <!--====== End - Section 3 ======-->
+</div>
+<!--====== End - App Content ======-->
+<script>
+    $(document).ready(function () {
+        $(".success__quantity").click(function () {
+            // Toggle the visibility of the form
+            $(this).next('.quantity-form').slideToggle();
+        });
+
+        $(document).on('submit', '#editQuantityForm', function (e) {
+            e.preventDefault();
+
+            $.ajax({
+                type: "POST",
+                url: $(this).attr("action"),
+                data: $(this).serialize(),
+                success: function (response) {
+                    if (response.success) {
+                        showCard(response.message); // Show success message
+                    } else {
+                        showCard2(response.message); // Show error message
+                    }
+                },
+                error: function () {
+                    showCard2("An error occurred.");
+                }
+            });
+        });
+
+        function showCard(message) {
+            const cardHTML = `
+                <div class="message-card">
+                    <span class="check-icon">✔</span>
+                    <p>${message}</p>
+                    <button class="close-card-btn">Close</button>
+                </div>`;
+            document.body.insertAdjacentHTML('beforeend', cardHTML);
+        }
+
+        function showCard2(message) {
+            const cardHTML = `
+                <div class="message-card">
+                    <p>${message}</p>
+                    <button class="close-card-btn">Close</button>
+                </div>`;
+            document.body.insertAdjacentHTML('beforeend', cardHTML);
+        }
+
+        // Event delegation for dynamically generated close buttons
+        $(document).on('click', '.close-card-btn', function () {
+            $(this).closest('.message-card').remove();
+            location.reload();
+
+        });
+    });
+
+</script>

@@ -1,0 +1,268 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>@ViewBag.Title</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="~/images/favicon.png" rel="shortcut icon">
+    <title>Ludus - Electronics, Apparel, Computers, Books, DVDs & more</title>
+
+    <!--====== Google Font ======-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
+
+    <!--====== Vendor Css ======-->
+    <link rel="stylesheet" href="~/css/vendor.css">
+
+    <!--====== Utility-Spacing ======-->
+    <link rel="stylesheet" href="~/css/utility.css">
+
+    <!--====== App ======-->
+    <link rel="stylesheet" href="~/css/app.css">
+
+</head>
+<body>
+
+            <!--====== Main Header ======-->
+        <header class="header--style-1 header--box-shadow">
+        <nav class="primary-nav primary-nav-wrapper--border">
+            <div class="container">
+                <div class="primary-nav">
+                    <div class="menu-init" id="navigation">
+                        <button class="btn btn--icon toggle-button fas fa-cogs" type="button"></button>
+                        <div class="ah-lg-mode">
+                            <span class="ah-close">✕ Close</span>
+                            <ul style="width:220px ; list-style:none">
+                                <li class="has-dropdown" data-tooltip="tooltip" data-placement="left" title="Account">
+                                    <a><i class="far fa-user-circle" style="font-size: 22px"></i></a>
+                                    <span class="js-menu-toggle"></span>
+                                    <ul style="width:120px ; list-style:none">
+                                        <li>
+
+                                            <a asp-controller="Home" asp-action="MyProfile">
+                                                <i class="fas fa-user-circle u-s-m-r-6"></i>
+
+                                                <span>Account</span>
+                                            </a>
+                                        </li>
+                                        <li>
+
+                                            <a asp-controller="SigninAndSignup" asp-action="SignUp">
+                                                <i class="fas fa-user-plus u-s-m-r-6">
+                                                </i>
+
+                                                <span>Signup</span>
+                                            </a>
+                                        </li>
+                                        <li>
+
+                                            <a asp-controller="SigninAndSignup" asp-action="SignIn">
+                                                <i class="fas fa-lock u-s-m-r-6"></i>
+
+                                                <span>Signin</span>
+                                            </a>
+                                        </li>
+                                        <li>
+      
+                                            <a asp-controller="SigninAndSignup" asp-action="SignOut">
+                                                <i class="fas fa-lock-open u-s-m-r-6"></i>
+
+                                                <span>Signout</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--====== End - Dropdown Main plugin ======-->
+                </div>
+                <!--====== End - Primary Nav ======-->
+            </div>
+        </nav>
+        <!--====== Nav 2 ======-->
+            <nav class="secondary-nav-wrapper">
+                <div class="container">
+                     <!--====== Secondary Nav ======-->
+                    <div class="secondary-nav">
+                        <!--====== Dropdown Main plugin ======-->
+                        <div class="menu-init" id="navigation2">
+
+                            <button class="btn btn--icon toggle-button fas fa-cog" type="button"></button>
+
+                            <!--====== Menu ======-->
+                            <div class="ah-lg-mode">
+
+                                <span class="ah-close">✕ Close</span>
+
+                                <!--====== List ======-->
+                                <ul class="ah-list ah-list--design2 ah-list--link-color-secondary">
+                                    <li>
+
+                                    <a asp-action="AboutUS" asp-controller="Home">ABOUT US</a>
+                                </li>
+                                    <li class="has-dropdown">
+
+                                    <a>OUR SERVIES<i class="fas fa-angle-down u-s-m-l-6"></i></a>
+
+                                        <!--====== Dropdown ======-->
+
+                                        <span class="js-menu-toggle"></span>
+                                        <ul style="width:170px">
+
+                                            <li>
+
+                                            <a asp-controller="Home" asp-action="GetProductByCategoryType" asp-route-id="2">CLOTHES</a>
+                                        </li>
+                                            <li>
+
+                                            <a asp-controller="Home" asp-action="GetProductByCategoryType" asp-route-id="1">Accessories</a>
+                                        </li>
+
+                                            <li>
+                                        </ul>
+                                        <!--====== End - Dropdown ======-->
+                                    </li>
+                                    <li class="has-dropdown">
+
+                                    <a href="/#Testinomal">TESTIMONIAL<i class=" u-s-m-l-6"></i></a>
+                                    </li>
+                                <li class="has-dropdown">
+
+                                    <a asp-action="ContactUs" asp-controller="Home">CONTACT US<i class=" u-s-m-l-6"></i></a>
+                                </li>
+
+                                <li class="has-dropdown">
+
+                                    <a asp-action="FAQ" asp-controller="Home">FAQ<i class=" u-s-m-l-6"></i></a>
+                                </li>
+                                </ul>
+                                <!--====== End - List ======-->
+                            </div>
+                            <!--====== End - Menu ======-->
+                        </div>
+                        <!--====== End - Dropdown Main plugin ======-->
+                    @await Component.InvokeAsync("MiniCart")
+
+                        <!--====== Dropdown Main plugin ======-->
+                    <a class="main-logo" href="index.html">
+
+                        <img src="images/logo/Simple Man Fashion Clothing Logo.png" alt="">
+                    </a>
+
+                        <!--====== End - Dropdown Main plugin ======-->
+                    </div>
+                    <!--====== End - Secondary Nav ======-->
+                </div>
+            </nav>
+            <!--====== End - Nav 2 ======-->
+        </header>
+        <!--====== End - Main Header ======-->
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <!--====== Main Footer ======-->
+    <footer>
+        <div class="lower-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="lower-footer__content">
+                            <div class="lower-footer__copyright">
+
+                                <span>Copyright © 2023</span>
+
+                                <a href="index.html">She&He Store</a>
+
+                                <span>All Right Reserved</span>
+                            </div>
+                            <div class="lower-footer__payment">
+                                <ul>
+                                    <li><i class="fab fa-cc-stripe"></i></li>
+                                    <li><i class="fab fa-cc-paypal"></i></li>
+                                    <li><i class="fab fa-cc-mastercard"></i></li>
+                                    <li><i class="fab fa-cc-visa"></i></li>
+                                    <li><i class="fab fa-cc-discover"></i></li>
+                                    <li><i class="fab fa-cc-amex"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview')
+
+        function signOut() {
+            var form = document.createElement('form');
+            document.body.appendChild(form);
+            form.method = 'post';
+            form.action = '@Url.Action("SignOut", "SigninAndSignup")';
+            form.submit();
+        }
+
+
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+    <!--====== Vendor Js ======-->
+    <script src="~/js/vendor.js"></script>
+
+    <!--====== jQuery Shopnav plugin ======-->
+    <script src="~/js/jquery.shopnav.js"></script>
+
+    <!--====== App ======-->
+    <script src="~/js/app.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+            if (window.location.hash) {
+                const id = window.location.hash; // Get the hash from the URL
+                const element = document.querySelector(id);
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+
+    </script>
+    <!--====== Noscript ======-->
+    <noscript>
+        <div class="app-setting">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="app-setting__wrap">
+                            <h1 class="app-setting__h1">JavaScript is disabled in your browser.</h1>
+
+                            <span class="app-setting__text">Please enable JavaScript in your browser or upgrade to a JavaScript-capable browser.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </noscript>
+
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>

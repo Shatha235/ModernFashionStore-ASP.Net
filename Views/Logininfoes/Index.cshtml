@@ -1,0 +1,69 @@
+﻿@model IEnumerable<OnlineStore.Models.Logininfo>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Userrole)
+            </th>
+            <th>
+                Customer Role
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+                <td>
+                    @Html.Raw(string.Empty.PadLeft(item.Password.Length, '•')) <!-- Displaying dots for each character in the password -->
+                </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Userid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Userrole.Roleid)
+            </td>
+                <td>
+                    @if (item.Userrole.Roleid == 1)
+                    {
+                        @: <i class="fas fa-user-shield" style="color:#4942E4"></i> Admin
+                    }
+                    else if (item.Userrole.Roleid == 2)
+                    {
+                        @: <i class="fas fa-user" style="color:#8696FE"></i> Customer
+                    }
+                </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Loginid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Loginid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Loginid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add New Users</a>
+</p>

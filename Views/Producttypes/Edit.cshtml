@@ -1,0 +1,42 @@
+﻿@model OnlineStore.Models.Producttype
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Producttype</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Typeid" />
+            <div class="form-group">
+                <label asp-for="Typename" class="control-label"></label>
+                <input asp-for="Typename" class="form-control" />
+                <span asp-validation-for="Typename" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Imagepath" class="control-label"></label>
+                <input asp-for="Imagepath" class="form-control" />
+                <span asp-validation-for="Imagepath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Categorytypeid" class="control-label"></label>
+                <input asp-for="Categorytypeid" class="form-control" />
+                <span asp-validation-for="Categorytypeid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

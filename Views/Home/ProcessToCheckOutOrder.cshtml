@@ -1,0 +1,389 @@
+﻿@model Tuple<IEnumerable<OnlineStore.Models.UserShoppingCartItem> , User>
+@{
+    ViewData["Title"] = "ProcessToCheckOutOrder";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+    #overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 999;
+    }
+
+    #card-details {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        width: 280px;
+        padding: 25px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+        #card-details h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        #card-details label {
+            display: block;
+            margin-bottom: 7px;
+            font-size: 0.9em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        #card-details i {
+            margin-right: 10px;
+            color: #ff4500;
+        }
+
+        #card-details input[type="text"],
+        #card-details input[type="date"],
+        #card-details input[type="password"] {
+            width: 100%;
+            padding: 10px 30px 10px 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+
+            #card-details input[type="text"]:focus,
+            #card-details input[type="date"]:focus,
+            #card-details input[type="password"]:focus {
+                border-color: #ff4500;
+            }
+
+        #card-details button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #ff4500;
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+            #card-details button:hover {
+                background-color: #ff4500;
+            }
+
+    .message-card {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 20px;
+        width: 350px;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        z-index: 1000;
+    }
+
+        .message-card p {
+            font-size: 15px;
+            margin: 0 0 20px 0;
+        }
+
+        .message-card button {
+            padding: 10px 15px;
+            background-color: #ff4500;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+            .message-card button:hover {
+                background-color: #ff4500;
+            }
+
+    .check-icon {
+        font-size: 48px;
+        color: #28A745; /* Green color */
+        margin-bottom: 20px;
+        display: block;
+    }
+</style>
+
+<!--====== App Content ======-->
+<div class="app-content">
+
+    <!--====== Section 1 ======-->
+    <div class="u-s-p-y-60">
+        <div class="section__content">
+            <div class="container">
+                <div class="breadcrumb">
+                    <div class="breadcrumb__wrap">
+                        <ul class="breadcrumb__list">
+                            <li class="has-separator">
+
+                                <a asp-action="Index" asp-controller="Home">Home</a>
+                            </li>
+                            <li class="is-marked">
+
+                                <a asp-action="ProcessToCheckOutOrder" asp-controller="Home">Checkout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== Section 3 ======-->
+    <div class="u-s-p-b-60">
+
+        <!--====== Section Content ======-->
+        <div class="section__content">
+            <div class="container">
+                <div class="checkout-f">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h1 class="checkout-f__h1">ORDER SUMMARY</h1>
+                            <!--====== Order Summary ======-->
+                            <div class="o-summary">
+                                <div class="o-summary__section u-s-m-b-30">
+                                    <div class="o-summary__item-wrap gl-scroll">
+                                        @foreach(var product in Model.Item1)
+                                        {
+                                            <div class="o-card">
+                                                <div class="o-card__flex">
+                                                    <div class="o-card__img-wrap">
+
+                                                        <img class="u-img-fluid" src=@Url.Content("~/ProductImages/" + product.Products.Imagepath) alt="">
+                                                    </div>
+                                                    <div class="o-card__info-wrap">
+
+                                                        <span class="o-card__name">
+
+                                                            <a asp-action="ProductDetails" asp-route-id="@product.Products.Productid">@product.Products.Name</a>
+                                                        </span>
+                                                        @if (product.Sizes != null)
+                                                        {
+                                                            <span>Size: @product.Sizes.Sizename</span>
+                                                        }
+                                                        @if (product.Colors != null)
+                                                        {
+                                                            <div>
+                                                                Color:
+                                                            <div style="background-color: @product.Colors.Colorname; margin-right: 10px; width: 20px; height: 20px; border-radius:50%;"></div>
+                                                        </div>
+                                                        }
+                                                        <span class="o-card__quantity">Quantity x @product.CartItem.Quantity</span>
+
+                                                        <span class="o-card__price">$@product.Products.Price</span>
+                                                    </div>
+                                                </div>
+
+                                                <a class="o-card__del far fa-trash-alt"></a>
+                                            </div>
+                                        }
+                                       
+                                    </div>
+                                </div>
+                                <div class="o-summary__section u-s-m-b-30">
+                                    <div class="o-summary__box">
+                                        <h1 class="checkout-f__h1">SHIPPING & BILLING</h1>
+                                        <div class="ship-b">
+
+                                            <span class="ship-b__text">Ship To:</span>
+                                            <div class="ship-b__box u-s-m-b-10">
+                                                <p class="ship-b__p">@Model.Item2.Fname @Model.Item2.Lname</p>
+
+                                            </div>
+                                                <span class="ship-b__text">To Address: </span>
+                                                <div class="ship-b__box u-s-m-b-10">
+                                                    <p class="ship-b__p">@Model.Item2.Usercity</p>
+
+                                                </div>     
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="o-summary__section u-s-m-b-30">
+                                    <div class="o-summary__box">
+                                        <table class="o-summary__table">
+                                            <tbody>
+                                                <tr>
+                                                    <td>SHIPPING</td>
+                                                    <td>$4.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>TAX</td>
+                                                    <td>$0.00</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>SUBTOTAL</td>
+                                                    <td>$@UserShoppingCartItem.CalculateTotalPrice(Model.Item1)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>GRAND TOTAL</td>
+                                                    <td>$@UserShoppingCartItem.CalculateGrandPrice(Model.Item1)</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="o-summary__section u-s-m-b-30">
+                                    <div class="o-summary__box">
+                                        <h1 class="checkout-f__h1">PAYMENT INFORMATION</h1>
+                                        <form class="checkout-f__payment">
+         
+                                            <div class="u-s-m-b-10">
+                                                <div class="radio-box">
+
+                                                    <input type="radio" id="pay-with-card" name="payment">
+                                                    <div class="radio-box__state radio-box__state--primary">
+
+                                                        <label class="radio-box__label" for="pay-with-card">Pay With Credit / Debit Card</label>
+                                                    </div>
+                                                </div>
+                                                <span class="gl-text u-s-m-t-6">International Credit Cards must be eligible for use within the United States.</span>
+                                            </div>
+
+                                            <div>
+
+@*                                                 <button class="btn btn--e-brand-b-2" type="submit">PLACE ORDER</button>
+ *@                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--====== End - Order Summary ======-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Content ======-->
+    </div>
+    <!--====== End - Section 3 ======-->
+</div>
+
+<div id="overlay"></div>
+
+<div id="card-details">
+    <form action="@Url.Action("AddOrder", "Home")" method="POST" id="AddOrederForm">
+        <h2>Enter Card Details</h2>
+        <label for="cardNumber"><i class="fas fa-credit-card"></i> Card Number:</label>
+        <input type="text" id="cardNumber" name="Cardnumber">
+
+        <label for="expiryDate"><i class="fas fa-calendar-alt"></i> Expiry Date:</label>
+        <input type="date" id="expiryDate" name="Expirydate">
+
+        <label for="cvv"><i class="fas fa-lock"></i> CVV:</label>
+        <input type="password" id="cvv" name="Cvv" maxlength="3">
+
+        <div id="checkout-msg-group">
+            <div class="msg">
+                <span class="msg__text">
+                    Have a coupon?
+
+                    <a class="gl-link" href="#have-coupon" data-toggle="collapse">Click Here to enter your code</a>
+                </span>
+                <div class="collapse" id="have-coupon" data-parent="#checkout-msg-group">
+                    <div class="c-f u-s-m-b-16">
+                        <span class="gl-text u-s-m-b-16">Enter your coupon code if you have one.</span>
+                            <div class="u-s-m-b-16">
+                                <div class="u-s-m-b-15">
+                                    <label for="coupon"></label>
+                                <input class="input-text input-text--primary-style" type="text" id="coupon" name="couponName" placeholder="Coupon Code">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ <button id="close-modal"> Place Order</button>
+</form>
+</div>
+
+
+  <script>
+    document.getElementById('pay-with-card').addEventListener('change', function () {
+        if (this.checked) {
+            document.getElementById('card-details').style.display = 'block';
+            document.getElementById('overlay').style.display = 'block';
+        }
+    });
+    
+    document.getElementById('close-modal').addEventListener('click', function () {
+        document.getElementById('card-details').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+    });
+
+    function showCard(message) {
+        const cardHTML =
+
+            `
+              <div class="message-card">
+                <span class="check-icon">✔</span>
+                <p>${message}</p>
+                <button onclick="closeCard()">Close</button>
+            </div>
+            `;
+        document.body.insertAdjacentHTML('beforeend', cardHTML);
+    }
+
+    function showCard2(message) {
+        const cardHTML = 
+
+        `
+            <div class="message-card" >
+                <p>${message}</p>
+                <button onclick="closeCard()">Close</button>
+            </div>
+        `;
+        document.body.insertAdjacentHTML('beforeend', cardHTML);
+    }
+
+    function closeCard() {
+        const card = document.querySelector('.message-card');
+        if (card) {
+            card.remove();
+        }
+    }
+    $("#AddOrederForm").submit(function (e) {
+        e.preventDefault();
+
+        $.ajax({
+            type: "POST",
+            url: "@Url.Action("AddOrder", "Home")",
+            data: $("#AddOrederForm").serialize(),
+            success: function (response) {
+                if (response.success) {
+                    showCard(response.message);
+                } else {
+                    // Handle error
+                    showCard2(response.message);
+                }
+            },
+            error: function () {
+                showCard2("An error occurred.");
+            }
+        });
+    });
+
+  </script>

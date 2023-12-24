@@ -1,0 +1,57 @@
+﻿@model IEnumerable<OnlineStore.Models.Producttype>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<h4>The Product Type</h4>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Typeid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Typename)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagepath)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categorytypeid)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Typeid)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Typename)
+            </td>
+
+                <td>
+
+                    <img src=@Url.Content("~/ProductImages/" + item.Imagepath)
+                         asp-append-version="true" style="border-radius:50%;"
+                         width="100px" height="100px" />
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Categorytypeid)
+                </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Typeid">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Typeid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Typeid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

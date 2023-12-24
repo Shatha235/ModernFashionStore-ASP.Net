@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Add jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Add Bootstrap JavaScript (Popper.js is required for some features) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+
+        <!----===== Boxicons CSS ===== -->
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="~/DashboardAssets/assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&ampdisplay=swap"
+          rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/DashboardAssets/assets/vendor/fonts/materialdesignicons.css" />
+
+    <!-- Menu waves for no-customizer fix -->
+    <link rel="stylesheet" href="~/DashboardAssets/assets/vendor/libs/node-waves/node-waves.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="~/DashboardAssets/assets/vendor/css/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="~/DashboardAssets/assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="~/DashboardAssets/assets/css/demo.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="~/DashboardAssets/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="~/DashboardAssets/assets/vendor/libs/apex-charts/apex-charts.css" />
+
+    <!-- Page CSS -->
+    <!-- Helpers -->
+    <script src="~/DashboardAssets/assets/vendor/js/helpers.js"></script>
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="~/DashboardAssets/assets/js/config.js"></script>
+ <style>
+        input.waves-button-input {
+            color: black;
+        }
+ </style>
+
+</head>
+
+<body>
+    <div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+
+
+    <!-- Menu -->
+
+    <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
+        <div>
+            <a href="index.html" class="app-brand-link">
+                            <img src="~/images/logo/Simple Man Fashion Clothing Logo-fotor-bg-remover-2023110712151.png" alt="" style="margin-top: 15px ; margin-left:25px; height: 120px">
+                    </a>
+
+            <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
+                <i class="mdi menu-toggle-icon d-xl-block align-middle mdi-20px"></i>
+            </a>
+        </div>
+
+        <div class="menu-inner-shadow"></div>
+
+        <ul class="menu-inner py-2">
+            <!-- Dashboards -->
+            <li class="menu-item ">
+                        <a asp-controller="Admin" asp-action="Dashboard" class="menu-link menu-toggle">
+                    <i class="menu-icon mdi mdi-home-outline"></i>
+                    <div >Dashboards</div>
+                    
+                </a>
+
+            </li>
+
+            <li class="menu-item">
+                        <a asp-controller="Home" asp-action="MyProfile" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-account-circle"></i>
+                            <div >Profile</div>
+                </a>
+                </li>
+
+
+                    <li class="menu-item">
+                        <a asp-controller="Admin" asp-action="OrderList" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-format-align-left"></i>
+                            <div>Order List</div>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a asp-controller="Admin" asp-action="Customers" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-account-multiple-outline"></i>
+                            <div>Customers</div>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a asp-controller="Products" asp-action="Index" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-note-plus"></i>
+                            <div >Products</div>
+                        </a>
+                    </li>
+
+
+                    <li class="menu-item">
+                        <a asp-controller="Admin" asp-action="Reviews" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-message-reply-text"></i>
+                            <div >Reviews</div>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a asp-controller="Coupons" asp-action="Index" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-note-plus"></i>
+                            <div data-i18n="Layouts">Coupons</div>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a asp-controller="Admin" asp-action="Contacts" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-email-open-outline"></i>
+                            <div >Customer Contact</div>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a asp-controller="Logininfoes" asp-action="Index" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-account-multiple-plus"></i>
+                            <div>Add Users</div>
+                        </a>
+                    </li>
+
+                    <li class="menu-item">
+                        <a asp-controller="SigninAndSignup" asp-action="SignOut" class="menu-link menu-toggle">
+                            <i class="menu-icon tf-icons mdi mdi-logout"></i>
+                            <div >Logout</div>
+                        </a>
+                    </li>
+   
+        </ul>
+    </aside>
+    <!-- / Menu -->
+
+    <div class="layout-page">
+    <!-- Navbar -->
+
+    <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+         id="layout-navbar">
+        <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+            <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                <i class="mdi mdi-menu mdi-24px"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- / Navbar -->
+ 
+
+    <div>
+        @RenderBody()
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="~/DashboardAssets/assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="~/DashboardAssets/assets/vendor/libs/popper/popper.js"></script>
+    <script src="~/DashboardAssets/assets/vendor/js/bootstrap.js"></script>
+    <script src="~/DashboardAssets/assets/vendor/libs/node-waves/node-waves.js"></script>
+    <script src="~/DashboardAssets/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <!-- endbuild -->
+    <!-- Vendors JS -->
+    <script src="~/DashboardAssets/assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+    <!-- Main JS -->
+    <script src="~/DashboardAssets/assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="~/DashboardAssets/assets/js/dashboards-analytics.js"></script>
+
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    @RenderSection("Scripts", required: false)
+
+
+</body>
+</html>

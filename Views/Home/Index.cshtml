@@ -1,0 +1,361 @@
+﻿@model Tuple<IEnumerable<Categorytype>, IEnumerable<Producttype>, IEnumerable<Product>, IEnumerable<Coupon>, IEnumerable<Testimonial>, IEnumerable<User>>
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<div class="config">
+
+    <div class="app-content" id="app">
+
+    <!--====== Primary Slider ======-->
+    <div class="s-skeleton s-skeleton--h-600 s-skeleton--bg-grey">
+        <div class="owl-carousel primary-style-1" id="hero-slider">
+                <div class="hero-slide hero-slide--1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="slider-content slider-content--animation">
+
+                                <span class="content-span-1 u-c-secondary">Latest Update Stock</span>
+
+                                    <span class="content-span-2 u-c-secondary">On Clothes</span>
+
+                                <span class="content-span-4 u-c-secondary">
+                                    Starting At
+
+                                    <span class="u-c-brand">$10.00</span>
+                                </span>
+
+                                <a class="shop-now-link btn--e-brand" href="shop-side-version-2.html">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="hero-slide hero-slide--2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="slider-content slider-content--animation">
+
+                                    <span class="content-span-1 u-c-secondary" >Find Top Brands</span>
+
+                                    <span class="content-span-2 u-c-secondary">On Accessories</span>
+
+                                    <span class="content-span-4 u-c-secondary">Find accessories on best prices</span>
+
+                                    <span class="content-span-4 u-c-secondary">
+                                    Starting At
+
+                                    <span class="u-c-brand">$1.00</span>
+                                </span>
+
+                                <a class="shop-now-link btn--e-brand" href="shop-side-version-2.html">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!--====== COUPON SECTION ======-->
+    <div class="u-s-p-b-60" style="margin-top:130px">
+        <div class="section__intro u-s-m-b-46">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section__text-wrap">
+                            <h1 class="section__heading u-c-secondary u-s-m-b-12">COUPONS AVAILABLE</h1>
+                            @if (Model.Item4.Any()) // Check if there are any coupons
+                            {
+                                <div class="row">
+                                    <!-- Start of the row for coupons -->
+                                    @foreach (var coupon in Model.Item4)
+                                    {
+                                        <!-- Each coupon gets its own column. Adjust the col size as needed -->
+                                        <div class="col-md-6 col-sm-6">
+                                            <span class="section__span u-c-silver">@coupon.Couponcode - @coupon.Discountpercentage% OFF</span>
+                                            <div class="section_countdown-wrap">
+                                                <div class="countdown countdown--style-section" data-countdown="@coupon.Enddate?.ToString("yyyy/MM/dd")"></div>
+                                            </div>
+                                        </div>
+                                    }
+                                </div> <!-- End of the row for coupons -->
+                            }
+                            else
+                            {
+                                <span class="section__span u-c-silver u-s-m-b-16">No active coupons at the moment.</span>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOP CATEGORY & CATEGORY SECTION -->
+    @foreach(var categoryType in Model.Item1)
+    {
+        <div class="u-s-p-y-60" id="electronic-01">
+
+        <!--====== Section TOP Category  Intro ======-->
+        <div class="section__intro u-s-m-b-46">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="block">
+
+                            <span class="block__title">@categoryType.Categorytypename TOP CATEGORY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Intro ======-->
+            <div class="section__content">
+                <div class="container">
+                    <div class="row">
+
+                        @{
+                            var filteredProductsType = Model.Item2
+                            .Where(productType => categoryType.Categorytypeid == productType.Categorytypeid)
+                            .ToList();
+                        }
+
+                        @foreach (var productType in filteredProductsType)
+            {
+                    <!--====== Section Content ======-->
+                                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 u-s-m-b-30">
+                                    <div class="category-o">
+                                        <div class="aspect aspect--bg-grey aspect--square category-o__img-wrap">
+
+                                            <img class="aspect__img category-o__img" src=@Url.Content("~/ProductImages/" + productType.Imagepath) alt="">
+                                        </div>
+                                        <div class="category-o__info">
+
+                                        <a class="category-o__shop-now btn--e-white-brand" asp-controller="Home" asp-action="GetProductByProductType" asp-route-id="@productType.Typeid">@productType.Typename</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    <!--====== End - Section Content ======-->
+            }
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!--====== Section Category Intro ======-->
+        <div class="section__intro u-s-m-b-16">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section__text-wrap">
+                            <h1 class="section__heading u-c-secondary u-s-m-b-12"></h1>
+
+                            <span class="section__span u-c-silver"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== Section Intro ======-->
+        <div class="section__intro u-s-m-b-46">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="block">
+
+                            <span class="block__title">@categoryType.Categorytypename</span>
+                            <ul class="nav tab-list">
+                                <li class="nav-item">
+
+                                    <a class="nav-link btn--e-white-brand-shadow"  asp-controller="Home" asp-action="GetProductByCategoryType" asp-route-id="@categoryType.Categorytypeid">SHOW MORE</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Intro ======-->
+        <div class="filter__grid-wrapper u-s-m-t-30">
+         <div class="row">
+
+                <!--====== To show 4 product in the home page ======-->
+                @{
+                    var filteredProducts = Model.Item3
+                    .Where(product => categoryType.Categorytypeid == product.Categoryid)
+                    .Take(4)
+                    .ToList();
+                }
+
+                @foreach (var product in filteredProducts)
+                    {                
+                            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 u-s-m-b-30 filter__item headphone">
+                                <div class="product-o product-o--hover-on product-o--radius">
+                                    <div class="product-o__wrap">
+
+                                <a class="aspect aspect--bg-grey aspect--square u-d-block" >
+
+                                        <img class="aspect__img" src=@Url.Content("~/ProductImages/" + product.Imagepath) alt="">
+                                        </a>
+                                        <div class="product-o__action-wrap">
+                                            <ul class="product-o__action-list">
+                                                <li>
+
+                                            <a asp-controller="Home" asp-action="ProductDetails" asp-route-id="@product.Productid" title="Quick View"><i class="fas fa-search-plus"></i></a>
+                                                </li>
+                                                <li>
+
+                                            <a data-modal="modal" data-modal-id="#add-to-cart" data-tooltip="tooltip" data-placement="top" title="Add to Cart" asp-controller="Home" asp-action="ProductDetails" asp-route-id="@product.Productid"><i class="fas fa-plus-circle"></i></a>
+                                                </li>
+                                        <li>
+                                            <a href="javascript:void(0);" onclick="submitFavoriteForm('@product.Productid');" title="Add to Wishlist"><i class="fas fa-heart"></i></a>
+                                            <form id="favoriteForm" action="@Url.Action("AddToFavorite", "Home", new { id = @product.Productid})" method="post">
+                                            </form>
+                                        </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <span class="product-o__category">
+
+                                        <a >@categoryType.Categorytypename</a>
+                                    </span>
+
+                                    <span class="product-o__name">
+
+                                        <a >@product.Name</a>
+                                    </span>
+   
+
+                                    <span class="product-o__price">
+                                    $@product.Price
+                                    </span>
+                                </div>
+                        </div>
+
+                    }
+            </div>
+        </div>
+
+    }
+    <!--====== Testtonomial Section ======-->
+    @if (@Model.Item5 != null)
+    {
+        <div class="u-s-p-b-90 u-s-m-b-30" id="Testinomal">
+        <div class="section__intro u-s-m-b-46">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section__text-wrap">
+                            <h1 class="section__heading u-c-secondary u-s-m-b-12">CLIENTS FEEDBACK</h1>
+
+                            <span class="section__span u-c-silver">WHAT OUR CLIENTS SAY</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section__content">
+            <div class="container">
+
+                <!--====== Testimonial Slider ======-->
+                <div class="slider-fouc">
+                    <div class="owl-carousel" id="testimonial-slider">
+                        @foreach (var item in Model.Item5)
+                        {
+                            var user = Model.Item6.FirstOrDefault(u => u.Logininfos.Any(info => info.Email == item.Email));
+                            <div class="testimonial">
+                                <div class="testimonial__img-wrap">
+
+                                    <img class="testimonial__img" src="@Url.Content("~/images/" + user.Imagepath)" alt="">
+                                </div>
+                                <div class="testimonial__content-wrap">
+
+                                    <span class="testimonial__double-quote"><i class="fas fa-quote-right"></i></span>
+                                    <blockquote class="testimonial__block-quote">
+                                        <p>"@item.Feedback"</p>
+                                    </blockquote>
+
+                                    <span class="testimonial__author">@user.Fname @user.Lname. / @user.Usercity</span>
+                                </div>
+                            </div>
+
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    }
+
+
+    <!--====== LAST SECTION ======-->
+    <div class="u-s-p-b-60">
+
+        <div class="section__content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 u-s-m-b-30">
+                        <div class="service u-h-100">
+                            <div class="service__icon"><i class="fas fa-truck"></i></div>
+                            <div class="service__info-wrap">
+
+                                <span class="service__info-text-1">Free Shipping</span>
+
+                                <span class="service__info-text-2">Free shipping on all US order or order above $200</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 u-s-m-b-30">
+                        <div class="service u-h-100">
+                            <div class="service__icon"><i class="fas fa-redo"></i></div>
+                            <div class="service__info-wrap">
+
+                                <span class="service__info-text-1">Shop with Confidence</span>
+
+                                <span class="service__info-text-2">Our Protection covers your purchase from click to delivery</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 u-s-m-b-30">
+                        <div class="service u-h-100">
+                            <div class="service__icon"><i class="fas fa-headphones-alt"></i></div>
+                            <div class="service__info-wrap">
+
+                                <span class="service__info-text-1">24/7 Help Center</span>
+
+                                <span class="service__info-text-2">Round-the-clock assistance for a smooth shopping experience</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+    function submitFavoriteForm(productId) {
+        document.getElementById('favoriteForm').action = "@Url.Action("AddToFavorite", "Home")" + "?id=" + productId;
+        document.getElementById('favoriteForm').submit();
+    }
+</script>
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+﻿@model IEnumerable<OnlineStore.Models.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+ 
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th>Product Id</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Status</th>
+                <th>Quantity</th>
+                <th>Description</th>
+                <th>Arrival Date</th>
+                <th>Category</th>
+                <th>Type</th>
+                <th>Image</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Productid)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Price)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Productstatus)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TruncatedDescription)
+                        @if (item.Description.Length > 100)
+                        {
+                            <a href="#" data-toggle="modal" data-target="#descriptionModal-@item.Productid">Read More</a>
+                        }
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.Arrivaldate)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Categoryid)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Producttypeid)</td>
+                    <td>
+                        <img src="@Url.Content("~/ProductImages/" + item.Imagepath)" asp-append-version="true" style="border-radius: 50%;" width="100px" height="100px" />
+                    </td>
+                    <td>
+
+                                <a class="dropdown-item" asp-action="Edit" asp-route-id="@item.Productid">Edit</a>
+                                <a class="dropdown-item" asp-action="Details" asp-route-id="@item.Productid">Details</a>
+                                <a class="dropdown-item" asp-action="Delete" asp-route-id="@item.Productid">Delete</a>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Product</a>
+</p>
+
+@foreach (var item in Model)
+{
+    <div class="modal fade" id="descriptionModal-@item.Productid" tabindex="-1" role="dialog" aria-labelledby="descriptionModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="descriptionModalLabel">@item.Name</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    @item.Description
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+

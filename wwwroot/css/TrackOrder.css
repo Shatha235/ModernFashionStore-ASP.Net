@@ -1,0 +1,185 @@
+﻿#progressbar {
+    counter-reset: step;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+    #progressbar li {
+        position: relative;
+        text-align: center;
+        flex: 1;
+    }
+
+        #progressbar li:before {
+            content: counter(step);
+            counter-increment: step;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border: 2px solid #ddd;
+            display: block;
+            text-align: center;
+            margin: 0 auto 10px auto;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+        #progressbar li:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background: #ddd;
+            top: 15px; /* adjust to center it with the numbers */
+            left: -50%;
+            z-index: -1;
+        }
+
+        #progressbar li:first-child:after {
+            content: none;
+        }
+
+        #progressbar li.active:before {
+            border-color: #febe12;  Change to the color you want for "active" 
+            background-color: #febe12;  Change to the color you want for "active" 
+            color: white;
+        }
+
+        #progressbar li.active:after {
+            background-color: #febe12; /* Change to the color you want for "active" */
+        }
+
+        #progressbar li .icon {
+            display: none; /* hide by default */
+        }
+
+        #progressbar li.active .icon {
+            display: inline-block; /* show on active */
+        }
+
+        #progressbar li .text {
+            display: block;
+        }
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+#card-details {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 280px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+    #card-details h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+        color: #333;
+    }
+
+    #card-details label {
+        display: block;
+        margin-bottom: 7px;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: #333;
+    }
+
+    #card-details i {
+        margin-right: 10px;
+        color: #ff4500;
+    }
+
+    #card-details input[type="text"],
+    #card-details input[type="date"],
+    #card-details input[type="password"] {
+        width: 100%;
+        padding: 10px 30px 10px 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1em;
+        transition: border-color 0.3s;
+    }
+
+        #card-details input[type="text"]:focus,
+        #card-details input[type="date"]:focus,
+        #card-details input[type="password"]:focus {
+            border-color: #ff4500;
+        }
+
+    #card-details button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #ff4500;
+        color: #FFF;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        #card-details button:hover {
+            background-color: #ff4500;
+        }
+
+.message-card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 350px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+}
+
+    .message-card p {
+        font-size: 15px;
+        margin: 0 0 20px 0;
+    }
+
+    .message-card button {
+        padding: 10px 15px;
+        background-color: #ff4500;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .message-card button:hover {
+            background-color: #ff4500;
+        }
+
+.check-icon {
+    font-size: 48px;
+    color: #28A745; /* Green color */
+    margin-bottom: 20px;
+    display: block;
+}
+

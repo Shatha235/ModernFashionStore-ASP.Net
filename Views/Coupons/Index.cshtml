@@ -1,0 +1,53 @@
+﻿@model IEnumerable<OnlineStore.Models.Coupon>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Couponcode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discountpercentage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Startdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Enddate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Couponcode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discountpercentage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Startdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Enddate)
+            </td>
+            <td>
+                    <a class="dropdown-item" asp-action="Edit" asp-route-id="@item.Couponid">Edit</a> |
+                    <a class="dropdown-item" asp-action="Details" asp-route-id="@item.Couponid">Details</a> |
+                    <a class="dropdown-item" asp-action="Delete" asp-route-id="@item.Couponid">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Coupon</a>
+</p>

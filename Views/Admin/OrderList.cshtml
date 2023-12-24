@@ -1,0 +1,283 @@
+﻿@model IEnumerable<OnlineStore.Models.OrderViewModel>
+
+@{
+    ViewData["Title"] = "OrderList";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<link href="https://cdn.datatables.net/1.11.1/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+<link href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css" rel="stylesheet" />
+
+<style>
+    button.dt-button.buttons-copy.buttons-html5, button.dt-button.buttons-excel.buttons-html5 , 
+    button.dt-button.buttons-csv.buttons-html5, button.dt-button.buttons-pdf.buttons-html5 {
+        border-radius: 20px;
+        background-color: #9055fd;
+        color: white;
+        font-size: 14px;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        border: 1px solid #ddd;
+        border-radius: 20px; 
+        padding: 10px 20px;
+        background-color: transparent;
+        margin-left: 3px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        outline: none;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        color: #333; 
+    }
+
+        .dataTables_wrapper .dataTables_filter input:focus {
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+        }
+
+    #OrderList_wrapper {
+        background-color: #f4f5fa;
+    }
+        /* Change placeholder text */
+        .dataTables_filter input::placeholder {
+            color: #999;
+        }
+    /* Align the buttons to the right */
+    .dataTables_buttons {
+        text-align: right;
+        padding-top: 1em; 
+    }
+
+    .order-status {
+        font-size: 14px;
+        padding: 5px 10px; 
+        border-radius: 5px; 
+        border: 1px solid #ced4da; 
+        background-color: #ffffff;
+        margin-top: 10px; 
+        cursor: pointer; 
+    }
+
+        .order-status:focus {
+            outline: none;
+            border-color: #4d90fe;
+            box-shadow: 0 0 3px #4d90fe;
+        }
+
+        .order-status option {
+            padding: 5px;
+            background: #fff; 
+        }
+            .order-status option:hover {
+                background-color: #f8f9fa;
+            }
+
+    div#OrderList_info {
+        margin-left: 20px;
+    }
+
+</style>
+<!-- Data Tables -->
+<div class="col-12">
+    <form action="OrderList" method="get">
+        <div class="row">
+            <div class="col-4">
+                <label>Start Date</label>
+                <input class="form-control" style="margin-bottom: 10px;" name="startDate" type="date" placeholder="Start Date" />
+            </div>
+            <div class="col-4">
+                <label>End Date</label>
+                <input class="form-control" style="margin-bottom: 10px;" name="endDate" type="date" placeholder="End Date" />
+            </div>
+            <div class="col-4">
+                <button type="submit" class="btn  " style="margin-top: 30px; margin-right: 10px; border-radius:10px ; background-color: #9D76C1 ; color: white">Search</button>
+
+            </div>
+        </div>
+    </form>
+    <div class="card" style="margin-top: 10px">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped" id="OrderList">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Order ID</th>
+                        <th>User Name</th>
+                        <th>Location</th>
+                        <th>Total Price</th>
+                        <th>Order Date</th>
+                        <th>Order Detail</th>
+                        <th>Order Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var orderViewModel in Model)
+                    {
+                        <tr>
+                            <td>@orderViewModel.Order.Orderid</td>
+
+                            <td >@(orderViewModel.Order.User?.Fname + " " + orderViewModel.Order.User?.Lname)</td>
+                            <td >@orderViewModel.Order.User?.Usercity</td>
+                            <td >@orderViewModel.Order.Totalprice$</td>
+                            <td >@orderViewModel.Order.Orderdate.ToString()</td>
+                            <td>
+                                <button type="button" class="btn " style="background-color:#9D76C1 ; border-radius:10px ; color:white" data-toggle="modal" data-target="#orderDetailsModal-@orderViewModel.Order.Orderid">Details</button>
+                            </td>
+                            <td>
+                                <select class="form-control order-status" data-order-id="@orderViewModel.Order.Orderid">
+                                    @if (orderViewModel.Order.Orderstatus == "Pending")
+                                    {
+                                        <option value="Pending" selected>Pending</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="Pending">Pending</option>
+                                    }
+
+                                    @if (orderViewModel.Order.Orderstatus == "shipped")
+                                    {
+                                        <option value="shipped" selected>Shipped</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="shipped">Shipped</option>
+                                    }
+
+                                    @if (orderViewModel.Order.Orderstatus == "delivered")
+                                    {
+                                        <option value="delivered" selected>Delivered</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="delivered">Delivered</option>
+                                    }
+                                </select>
+                            </td>
+                       </tr>
+
+                        <!-- The Modal -->
+                        <div class="modal fade" id="orderDetailsModal-@orderViewModel.Order.Orderid" tabindex="-1" role="dialog" aria-labelledby="OrderDetailsLabel-@orderViewModel.Order.Orderid">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="OrderDetailsLabel-@orderViewModel.Order.Orderid">Order Details (Order ID: @orderViewModel.Order.Orderid)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- Iterate through the order details for this order -->
+                                        @foreach (var detail in orderViewModel.OrderDetails)
+                                        {
+                                            <div class="card mb-3">
+                                                <div class="row no-gutters">
+                                                    <div class="col-md-4">
+                                                        <img src="@Url.Content("~/ProductImages/" + detail.Product.Imagepath)" class="card-img" alt="@detail.Product.Name">
+                                                    </div>
+                                                    <div class="col-md-8">
+                                                        <div class="card-body">
+                                                            <h5 class="card-title">@detail.Product.Name</h5>
+                                                            <p class="card-text">Quantity: @detail.OrderDetail.Quantity</p>
+                                                            <p class="card-text">Product Price: $@detail.OrderDetail.Product.Price</p>
+
+                                                            @if (detail.SizeName != null)
+                                                            {
+
+                                                                <p class="card-text">Size: @detail.SizeName</p>
+
+                                                            }
+                                                            @if (detail.ColorName != null)
+                                                            {
+                                                                    <span>
+                                                                        Color:
+                                                                        <div style="background-color: @detail.ColorName; margin-right: 10px; width: 20px; height: 20px; border-radius:50%;"></div>
+                                                                    </span>
+                                                            }
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+<script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js" defer></script>
+
+<script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js" defer></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+
+<script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js" defer></script>
+ <script>
+    $(document).ready(function () {
+        var table = $('#OrderList').DataTable({
+            // Setup the positions of table elements using the DataTables dom initialization parameter
+            dom: '<"top"lf>rt<"bottom"Bip><"clear">',
+            buttons: [
+                'copyHtml5',
+                'excelHtml5',
+                'csvHtml5',
+                'pdfHtml5'
+            ],
+            language: {
+                searchPlaceholder: " Search orders...",
+                search: "" // This will remove the "Search" label next to the search box
+            }
+        });
+
+        // This moves the buttons under the table to the right
+        table.buttons().container()
+            .appendTo('#OrderList_wrapper .col-md-6:eq(1)')
+            .addClass('float-right'); 
+        table.buttons().container().css('margin-top', '20px').css('margin-left', '20px')
+    });
+
+
+    // Function to show order details
+    function showOrderDetails(orderId) {
+        // Implement the logic to show order details
+        alert("Show details for order " + orderId);
+        // Populate and show a modal or details element here
+    }
+
+    $(document).ready(function () {
+        $('#OrderList').on('change', '.order-status', function () {
+            var newStatus = $(this).val();
+            var orderId = $(this).data('order-id');
+            var updateUrl = '@Url.Action("UpdateOrderStatus", "Admin")';
+            console.log('Making AJAX call to:', updateUrl); // Check the generated URL
+
+            $.ajax({
+                url: updateUrl,
+                type: 'POST',
+                data: {
+                    orderId: orderId,
+                    newStatus: newStatus
+                },
+                success: function (result) {
+                  console.log("Updated")
+                    setTimeout(function () {
+                        location.reload();
+                    }, 1000); // Delay of 1000 milliseconds (1 second)
+                },
+                error: function (xhr, status, error) {
+                    console.log("error")
+                }
+            });
+        });
+    });
+  </script>

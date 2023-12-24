@@ -1,0 +1,431 @@
+﻿@model Tuple<User, IEnumerable<OnlineStore.Models.SalesByCountryViewModel> , IEnumerable<Order> , IEnumerable<Orderdetail>>
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+
+}
+
+
+@{
+      var orderCounts = Model.Item3
+    .GroupBy(o => o.Orderdate.Month)
+    .Select(group => new
+    {
+        Month = group.Key,
+        OrderCount = group.Count()
+    })
+    .OrderBy(item => item.Month)
+    .ToList();
+
+var productCounts = Model.Item4
+    .GroupBy(od => od.Productid)
+    .Select(group => new
+    {
+        ProductName = group.First().Product?.Name,
+        OrderCount = group.Count()
+    })    .ToList();
+
+}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+
+
+<div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+    <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+        <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+            <i class="mdi mdi-menu mdi-24px"></i>
+        </a>
+    </div>
+
+<!-- Content wrapper -->
+<div class="content-wrapper">
+    <!-- Content -->
+
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="row gy-4">
+            <!-- Congratulations card -->
+            <div class="col-md-12 col-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title mb-1">Congratulations @Model.Item1.Fname! 🎉</h4>
+                            <p class="pb-0">
+                                Required Target for this month to achieve a 10% increase
+
+                            </p>
+                            <h4 class="text-primary mb-1">@ViewData["SalesTarget"]% of the target 🚀</h4>
+                            <p class="mb-2 pb-1"></p>
+                    </div>
+ 
+                </div>
+            </div>
+            <!-- Transactions -->
+            <div class="col-lg-8">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h5 class="card-title m-0 me-2">Transactions</h5>
+                        </div>
+                        <p class="mt-3"></p>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-4 col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar">
+                                        <div class="avatar-initial rounded shadow" style="background-color: #7895CB">
+                                            <i class="mdi mdi-trending-up mdi-24px"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ms-3">
+                                        <div class="small mb-1">Sales</div>
+                                            <h5 class="mb-0">@ViewData["TotalSales"]</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar">
+                                        <div class="avatar-initial rounded shadow" style="background-color: #B799FF">
+                                            <i class="mdi mdi-account-outline mdi-24px"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ms-3">
+                                        <div class="small mb-1">Customers</div>
+                                            <h5 class="mb-0">@ViewData["TotalCustomers"]</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar">
+                                        <div class="avatar-initial rounded shadow" style="background-color: rgba(174, 226, 255, 1)">
+                                            <i class="mdi mdi-cellphone-link mdi-24px"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ms-3">
+                                        <div class="small mb-1">Product</div>
+                                            <h5 class="mb-0">@ViewData["TotalProducts"]</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar">
+                                        <div class="avatar-initial rounded shadow" style="background-color: #9288F8">
+                                                <i class="mdi mdi-message-draw mdi-24px"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ms-3">
+                                        <div class="small mb-1">Reveiws</div>
+                                        <h5 class="mb-0">@ViewData["TotalReviews"]</h5>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-md-4 col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar">
+                                        <div class="avatar-initial rounded shadow" style="background-color: rgba(172, 188, 255, 1)">
+                                                <i class="mdi mdi-cart mdi-24px"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ms-3">
+                                        <div class="small mb-1">Orders</div>
+                                        <h5 class="mb-0">@ViewData["TotalOrders"]</h5>
+                                    </div>
+                                </div>
+                            </div>
+                             <div class="col-md-4 col-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar">
+                                        <div class="avatar-initial rounded shadow" style="background-color: #8294C4">
+                                                <i class="mdi mdi-comment-account mdi-24px"></i>
+                                        </div>
+                                    </div>
+                                    <div class="ms-3">
+                                        <div class="small mb-1">Contact</div>
+                                        <h5 class="mb-0">@ViewData["TotalContact"] </h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Sales by Countries -->
+            <div class="col-xl-4 col-md-6">
+                <div class="card">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <h5 class="card-title m-0 me-2">Sales by Countries</h5>
+                    </div>
+                    @foreach(var item in Model.Item2)
+                        {
+                            <div class="card-body">
+                                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+                                    <div class="d-flex align-items-center">
+                                        <div class="avatar me-3">
+                                            <div class="avatar-initial bg-label-success rounded-circle">@item.Country.Substring(0, 2)</div>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex align-items-center gap-1">
+                                                <h6 class="mb-0">@item.Country</h6>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-end">
+                                        <h6 class="mb-0">@item.TotalOrders</h6>
+                                        <small>Sales</small>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        }
+                </div>
+            </div>
+            <!-- Customer Distribution by Country -->
+            <div class="col-xl-8">
+                <div class="card h-100">
+                    <div class="card-body row g-2">
+                        <div class="col-12 col-md-12 card-separator pe-0 pe-md-3">
+                            <div class="d-flex justify-content-between align-items-center flex-wrap mb-4">
+                            </div>
+                            <div class="pt-2">
+                                    <canvas id="customerDistributionChart" width="400" height="200"></canvas>
+
+                            </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+
+            <!-- Monthly Order Data -->
+            <div class="col-xl-6 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mb-1">Monthly Order Data</h5>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div  style="height: 272px; width: 100%;">
+<canvas id="orderDataChart"></canvas></div>
+                        
+                        <div class="mb-3 mt-md-3 mb-md-5">
+                            <div class="d-flex align-items-center gap-3">
+                                <h3 class="mb-0"></h3>
+                                <p class="mb-0" style="margin-left:30px">Monthly Order Trends 😎</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Product Sales Distribution -->
+            <div class="col-xl-6 col-md-6">
+                <div class="card">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                        <h5 class="card-title m-0 me-2">Product Sales Distribution</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3 mt-md-3 mb-md-5">
+                            <div class="d-flex align-items-center" style="height: 300px; width: 100%;">
+                         <canvas id="productSalesChart" class="d-flex align-items-center" style="margin-left:70px"></canvas>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content-backdrop fade"></div>
+</div>
+<!-- Content wrapper -->
+</div>
+
+<script>
+// Initialize arrays to hold data
+const countries = [];
+const totalOrders = [];
+
+// Iterate through the data and populate the arrays
+@foreach (var item in Model.Item2)
+{
+    <text>countries.push('@item.Country');</text>
+    <text>totalOrders.push(@item.TotalOrders);</text>
+}
+
+// Get the canvas element
+const customerDistributionCanvas = document.getElementById('customerDistributionChart');
+
+// Create the bar chart with circular data points
+const customerDistributionChart = new Chart(customerDistributionCanvas, {
+    type: 'bar',
+    data: {
+        labels: countries,
+        datasets: [
+            {
+                label: 'Total Orders',
+                data: totalOrders,
+                backgroundColor: 'rgba(173, 129, 253, 1)',
+                borderWidth: 1,
+                pointStyle: 'circle', // Set data point style to circle
+            },
+        ],
+    },
+    options: {
+        plugins: {
+            title: {
+                display: true,
+                text: 'Customer Distribution by Country',
+                fontSize: 16,
+            },
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: 'Total Orders',
+                },
+            },
+            x: {
+                title: {
+                    display: true,
+                    text: 'Countries',
+                },
+            },
+        },
+    },
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Your chart initialization code here
+
+    const months = [];
+    const orderCounts = [];
+
+    // Assuming you have orderCounts array in your model, you can loop through it
+    @foreach (var orderCount in orderCounts)
+    {
+        // Populate the arrays
+        <text>months.push('@orderCount.Month');</text>
+        <text>orderCounts.push(@orderCount.OrderCount);</text>
+    }
+
+    // Get the canvas element
+    const orderDataCanvas = document.getElementById('orderDataChart');
+
+    // Create the Line chart
+    const orderDataChart = new Chart(orderDataCanvas, {
+        type: 'line',
+        data: {
+            labels: months,
+            datasets: [
+                {
+                    label: 'Order Count',
+                    data: orderCounts,
+                    borderColor: 'rgba(174, 226, 255, 1)', // Line color
+                    borderWidth: 2, // Line width
+                    pointBackgroundColor: 'rgba(174, 226, 255, 1)', // Point color
+                    pointBorderColor: 'rgba(174, 226, 255, 1)', // Point border color
+                },
+            ],
+        },
+        options: {
+            plugins: {
+                title: {
+                    display: true,
+                    fontSize: 16,
+                },
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Order Count',
+                    },
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Months',
+                    },
+                },
+            },
+        },
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Assuming you have productSales array in your model
+    var productSales = @Html.Raw(Json.Serialize(productCounts));
+
+    const productNames = [];
+    const salesQuantities = [];
+
+    // Loop through the productSales data
+    @foreach (var productSale in productCounts)
+    {
+        // Populate the arrays
+        <text>productNames.push('@productSale.ProductName');</text>
+        <text>salesQuantities.push(@productSale.OrderCount);</text>
+    }
+
+    // Get the canvas element
+    const productSalesCanvas = document.getElementById('productSalesChart');
+
+    if (productSalesCanvas) {
+        // Create the Pie chart
+        const productSalesChart = new Chart(productSalesCanvas, {
+            type: 'pie',
+            data: {
+                labels: productNames,
+                datasets: [
+                    {
+                        data: salesQuantities,
+                        backgroundColor: [
+                            'rgba(215, 187, 245, 1)',
+                            'rgba(128, 85, 140, 1)',
+                            'rgba(174, 226, 255, 1)',
+                            'rgba(175, 122, 179, 1)',
+                            'rgba(172, 188, 255, 1)',
+                        ],
+                    },
+                ],
+            },
+            options: {
+                tooltips: {
+                    enabled: true,
+                    mode: 'index',
+                    intersect: false,
+                    callbacks: {
+                        title: function (tooltipItem, data) {
+                            return productNames[tooltipItem[0].index];
+                        },
+                        label: function (tooltipItem, data) {
+                            var value = data.datasets[0].data[tooltipItem.index];
+                            return value + ' units';
+                        },
+                    },
+                },
+            },
+        });
+    } else {
+        console.error('Canvas element not found.');
+    }
+});
+
+
+
+</script>
+

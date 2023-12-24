@@ -1,0 +1,160 @@
+﻿@model Tuple<User , Logininfo>
+
+
+
+@{
+    ViewData["Title"] = Model.Item2.Userroleid == 1 ? "Dashboard" : "TrackOrder";
+    Layout = Model.Item2.Userroleid == 1 ? "~/Views/Shared/_DashboardLayout.cshtml" : "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+<!--====== Vendor Css ======-->
+<link rel="stylesheet" href="~/css/vendor.css">
+
+<!--====== Utility-Spacing ======-->
+<link rel="stylesheet" href="~/css/utility.css">
+
+<!--====== App ======-->
+<link rel="stylesheet" href="~/css/app.css">
+
+<!--====== App Content ======-->
+<div class="app-content">
+
+    <!--====== Section 1 ======-->
+    <div class="u-s-p-y-60">
+        @if (Model.Item2.Userroleid !=1)
+        {
+            <!--====== Section Content ======-->
+            <div class="section__content">
+                <div class="container">
+                    <div class="breadcrumb">
+                        <div class="breadcrumb__wrap">
+                            <ul class="breadcrumb__list">
+                                <li class="has-separator">
+
+                                    <a asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li class="is-marked">
+
+                                    <a asp-controller="Home" asp-action="MyProfile">My Account</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+    <!--====== End - Section 1 ======-->
+    <!--====== Section 2 ======-->
+    <div class="u-s-p-b-60">
+
+        <!--====== Section Content ======-->
+        <div class="section__content">
+            <div class="dash">
+                <div class="container">
+                    <div class="row">
+                                                    @if (Model.Item2.Userroleid != 1)
+                            {
+                        <div class="col-lg-3 col-md-12">
+                                <!--====== Dashboard Features ======-->
+                                <div class="dash__box dash__box--bg-white dash__box--shadow u-s-m-b-30">
+                                    <div class="dash__pad-1">
+
+                                        <span class="dash__text u-s-m-b-16">Hello, @Model.Item1.Fname @Model.Item1.Lname</span>
+                                        <ul class="dash__f-list">
+
+                                            <li>
+
+                                                <a asp-controller="Home" asp-action="MyProfile">My Profile</a>
+                                            </li>
+
+                                            <li>
+
+                                                <a asp-controller="Home" asp-action="TrackOrder">Track Order</a>
+                                            </li>
+                                            <li>
+
+                                                <a asp-controller="Home" asp-action="MyOrders">My Orders</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+             
+                            </div>
+                        }
+                       
+                        <div class="col-lg-9 col-md-12">
+                            <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white u-s-m-b-30">
+                                <div class="dash__pad-2">
+                                    <h1 class="dash__h1 u-s-m-b-14">My Profile</h1>
+
+                                    <span class="dash__text u-s-m-b-30">Look all your info, you could customize your profile.</span>
+                                    
+                                    <div class="row">
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            <img src="@Url.Content("~/images/" + Model.Item1.Imagepath)"
+                                                 asp-append-version="true" style="border-radius:50%;"
+                                                 width="100px" height="100px" />
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            <h2 class="dash__h2 u-s-m-b-8">Full Name</h2>
+
+                                            <span class="dash__text">@Model.Item1.Fname @Model.Item1.Lname</span>
+                                        </div>
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            <h2 class="dash__h2 u-s-m-b-8">E-mail</h2>
+
+                                            <span class="dash__text">@Model.Item2.Email</span>
+                         
+                                        </div>
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            <h2 class="dash__h2 u-s-m-b-8">Phone</h2>
+
+                                            <span class="dash__text">@Model.Item1.Phonenumber</span>
+  
+                                        </div>
+
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            <h2 class="dash__h2 u-s-m-b-8">City</h2>
+                                            <span class="dash__text">@Model.Item1.Usercity</span>
+                                        </div>
+
+
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            <h2 class="dash__h2 u-s-m-b-8">Birthday</h2>
+
+                                            <span class="dash__text">@Model.Item1.Birthdate.Value.Date</span>
+                                        </div>
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            <h2 class="dash__h2 u-s-m-b-8">Gender</h2>
+
+                                            <span class="dash__text">@Model.Item1.Gender</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+        
+                                            <div class="u-s-m-b-16">
+
+                                                <a class="dash__custom-link btn--e-transparent-brand-b-2" asp-action="EditProfile" asp-controller="Home">Edit Profile</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Content ======-->
+    </div>
+    <!--====== End - Section 2 ======-->
+</div>
+<!--====== End - App Content ======-->
